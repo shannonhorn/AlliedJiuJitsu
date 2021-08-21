@@ -1,0 +1,38 @@
+/* keyframes and animations */
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.header_container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: 0.6s;
+  z-index: 1000;
+  margin: var(--step-2) var(--step--1);
+  background-color: transparent;
+}
+
+.headline {
+  font-family: var(--font-heading);
+  color: var(--color);
+  text-transform: uppercase;
+  letter-spacing: 0.35rem;
+  opacity: 0;
+  animation: fade-in 0.6s ease-in forwards;
+  animation-delay: 0.6s;
+}
+
+.drop_cap {
+  background-color: var(--background-color-overlay);
+  color: var(--color-reverse);
+  padding: 0.382em;
+  padding-left: 0.638em;
+  margin-right: 0.236em;
+}

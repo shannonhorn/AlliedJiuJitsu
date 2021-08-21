@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css?family=Dosis:300,400,600|Open+Sans:400,600");
+
+/* design tokens */
+:root {
+  /* modular scale */
+  --step--3: clamp(0.745rem, 0.765rem + 0.0946vw, 0.9rem);
+  --step--2: clamp(0.9113rem, 0.8922rem + 0.0951vw, 0.96rem);
+  --step--1: clamp(1.0938rem, 1.0523rem + 0.2073vw, 1.2rem);
+  --step-0: clamp(1.3125rem, 1.2393rem + 0.3659vw, 1.5rem);
+  --step-1: clamp(1.575rem, 1.4579rem + 0.5854vw, 1.875rem);
+  --step-2: clamp(1.89rem, 1.7129rem + 0.8854vw, 2.3438rem);
+  --step-3: clamp(2.2681rem, 2.0098rem + 1.2915vw, 2.93rem);
+  --step-4: clamp(2.7219rem, 2.355rem + 1.8341vw, 3.6619rem);
+  --step-5: clamp(3.2656rem, 2.7537rem + 2.5598vw, 4.5775rem);
+  --supertiny: 12px;
+
+  /* colors */
+  --background-color: hsl(83, 5%, 96%);
+  --background-color-overlay: hsla(0, 0%, 0%, 0.85);
+  --background-color-button: hsla(0, 0%, 7%, 0.8);
+  --border-color-input: hsl(0, 0%, 93.3%);
+  --color: hsla(0, 0%, 7%, 0.9);
+  --color-light: hsla(0, 0%, 7%, 0.6);
+  --color-reverse: hsl(83, 5%, 96%);
+  --color-reverse-light: hsla(83, 5%, 96%, 0.54);
+  --color-input: hsl(0, 0%, 33.3%);
+  --color-black: hsla(0, 0%, 0%, 0.8);
+
+  /* borders */
+  --border-width: 1px;
+  --border-color: hsl(0, 0%, 92.9%);
+  --border-radius-input: 50px;
+  --border-radius-card: 0.5rem;
+
+  --box-shadow: 0 10px 30px var(--color-gray);
+
+  --measure: 60ch;
+
+  /* static spacing */
+  --padding-top-bottom: 4px;
+  --padding-sides: 20px;
+
+  --spacing-base: 1.5rem;
+  --spacing-double: calc(2 * var(--spacing-base));
+
+  --gutter: var(--spacing-base);
+
+  /* fonts */
+  --font-heading: "Dosis", sans-serif;
+  --font-copy: "Open Sans", sans-serif;
+}
+
+*:where(:not(iframe, canvas, img, svg, video):not(svg *)) {
+  all: unset;
+  display: revert;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-copy);
+  color: var(--color);
+  background-color: var(--background-color);
+  line-height: 1.45;
+  overflow-x: hidden;
+}
+
+.no_scroll {
+  overflow: hidden;
+}
+
+.flow {
+  --flow-space: var(--step-4);
+}
+
+.flow > * + * {
+  margin-top: var(--flow-space);
+  display: block;
+}
+
+.clipped {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+.hide {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 300ms ease-in-out, visibility 300ms ease-in-out;
+}
+
+.show {
+  opacity: 1;
+  visibility: visible;
+}
