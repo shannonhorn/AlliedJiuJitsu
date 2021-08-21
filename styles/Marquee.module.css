@@ -66,19 +66,20 @@
   width: 90vw;
   border-style: solid;
   border-color: var(--color-gray);
-  border-width: 1px;
+  border-width: 0.5px;
   margin: 1.325rem 0;
   animation-delay: 0.8s;
 }
 
 .headline_sub {
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   text-align: center;
-  margin: 0.318rem;
+  margin: 0.14rem;
   letter-spacing: 0.235rem;
   animation-delay: 0.8s;
 }
 
 .title {
   font-weight: 600;
+  margin-bottom: 0.3rem;
 }
