@@ -28,6 +28,7 @@
 
   /* borders */
   --border-width: 1px;
+  --border-width-half: calc(0.5 * var(--border-width));
   --border-color: hsl(0, 0%, 92.9%);
   --border-radius-input: 50px;
   --border-radius-card: 0.5rem;
@@ -41,7 +42,12 @@
   --padding-sides: 20px;
 
   --spacing-base: 1.5rem;
+  --spacing-half: calc(0.5 * var(--spacing-base));
+  --spacing-quarter: calc(0.5 * var(--spacing-half));
+  --spacing-quarter-half: calc(0.5 * var(--spacing-quarter));
   --spacing-double: calc(2 * var(--spacing-base));
+  --spacing-letter-base: 0.382rem;
+  --spacing-letter-half: calc(0.5 * var(--spacing-letter-base));
 
   --gutter: var(--spacing-base);
 
