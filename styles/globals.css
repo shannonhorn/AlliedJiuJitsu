@@ -38,7 +38,9 @@
 
   /* static spacing */
   --padding-top-bottom: 4px;
+  --padding-section-top-bottom: 3rem;
   --padding-sides: 20px;
+  --padding-section-sides:1rem;
 
   --spacing-base: 1.5rem;
   --spacing-half: calc(0.5 * var(--spacing-base));
@@ -49,6 +51,9 @@
   --spacing-letter-half: calc(0.5 * var(--spacing-letter-base));
 
   --gutter: var(--spacing-base);
+
+  --icon-height: 2.628rem;
+  --icon-width: 2.628rem;
 
   /* fonts */
   --font-heading: "Dosis", sans-serif;
