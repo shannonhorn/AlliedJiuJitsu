@@ -18,7 +18,6 @@
   --background-color: hsl(83, 5%, 96%);
   --background-color-overlay: hsla(0, 0%, 0%, 0.85);
   --background-color-button: hsla(0, 0%, 7%, 0.8);
-  --border-color-input: hsl(0, 0%, 93.3%);
   --color: hsla(0, 0%, 7%, 0.9);
   --color-light: hsla(0, 0%, 7%, 0.6);
   --color-reverse: hsl(83, 5%, 96%);
@@ -105,4 +104,38 @@ body {
 .show {
   opacity: 1;
   visibility: visible;
+}
+
+form {
+  --flow-space: var(--supertiny) !important;
+}
+
+label {
+  font-size: var(--step--2);
+}
+
+input {
+  border-color: var(--border-color);
+  border-style: solid;
+  border-width: var(--border-width-half);
+  border-radius: var(--border-radius-input);
+  font-family: var(--font-heading);
+  font-size: var(--step--3);
+  color: var(--color-input);
+  text-transform: uppercase;
+  letter-spacing: var(--spacing-letter-base);
+  padding: var(--padding-top-bottom) var(--padding-sides);
+  opacity: 0;
+  animation: fade_in 0.6s ease-in forwards;
+  animation-delay: 0.6s;
+  flex-grow: 1;
+  flex-shrink: 0;
+  transition: all 0.3s cubic-bezier(0.3, 0.1, 0.58, 1);
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-right-style: none;
+}
+
+input:focus {
+  border-color: var(--color);
 }
