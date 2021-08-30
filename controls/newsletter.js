@@ -5,7 +5,10 @@ import styles from "../styles/Newsletter.module.css";
 const Newsletter = () => {
   const [state, handleSubmit] = useForm("xqkwgrwj");
   return (
-    <section className={`${styles.newsletter} flow`}>
+    <section
+      aria-label="newsletter subscription"
+      className={`${styles.newsletter} flow`}
+    >
       <svg
         className={styles.icon}
         viewBox="0 0 24 24"

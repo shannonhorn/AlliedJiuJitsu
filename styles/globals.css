@@ -19,9 +19,11 @@
   --background-color-overlay: hsla(0, 0%, 0%, 0.85);
   --background-color-button: hsla(0, 0%, 7%, 0.8);
   --color: hsla(0, 0%, 7%, 0.9);
+  --color-white: hsla(0, 0%, 100%, 1);
   --color-light: hsla(0, 0%, 7%, 0.6);
   --color-reverse: hsl(83, 5%, 96%);
   --color-reverse-light: hsla(83, 5%, 96%, 0.54);
+  --color-navbar-white: hsla(0, 0%, 100%, 0.9);
   --color-input: hsl(0, 0%, 33.3%);
   --color-black: hsla(0, 0%, 0%, 0.8);
 
@@ -29,6 +31,7 @@
   --border-width: 1px;
   --border-width-double: calc(2 * var(--border-width));
   --border-width-half: calc(0.5 * var(--border-width));
+  --border-radius-input: 50px;
   --border-color: hsl(0, 0%, 92.9%);
   --border-color-input: hsl(0, 0%, 93.3%);
 

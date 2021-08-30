@@ -1,10 +1,12 @@
 import Head from "next/head";
+import React, { useState } from "react";
 import Header from "../controls/header";
 import Marquee from "../controls/marquee";
 import Newsletter from "../controls/newsletter";
 import styles from "../styles/Home.module.css";
 
 const Home = () => {
+  const [hamburgerMenuOpen, setHamburgerMenuOpen] = useState(false);
   return (
     <div className={styles.container}>
       <Head>
@@ -25,7 +27,10 @@ const Home = () => {
       </Head>
 
       <main className={styles.main}>
-        <Header />
+        <Header
+          hamburgerMenuOpen={hamburgerMenuOpen}
+          setHamburgerMenuOpen={setHamburgerMenuOpen}
+        />
         <Marquee />
         <Newsletter />
       </main>

@@ -1,7 +1,7 @@
 import styles from "../styles/Marquee.module.css";
 
 const Marquee = () => (
-  <section className={styles.marquee}>
+  <section aria-label="marquee" className={styles.marquee}>
     <div className={styles.marquee_copy}>
       <h1 className={`${styles.headline} ${styles.animatePopIn}`}>
         Allied Jiu Jitsu
@@ -13,6 +13,7 @@ const Marquee = () => (
       </h2>
       <a
         target="_blank"
+        rel="noreferrer"
         href="https://www.google.com/maps/place/10100+W+Lake+Pleasant+Pkwy+%231300,+Peoria,+AZ+85382/@33.6768804,-112.2784543,17z/data=!3m1!4b1!4m5!3m4!1s0x872b5d249b610ffb:0x6c6644a6cb4ac0a!8m2!3d33.6768804!4d-112.2762656"
       >
         <h2
@@ -44,6 +45,7 @@ const Marquee = () => (
       </h2>
       <a
         target="_blank"
+        rel="noreferrer"
         href="https://www.google.com/maps/place/1645+E+Cottonwood+St,+Cottonwood,+AZ+86326/@34.728514,-112.0117213,17z/data=!3m1!4b1!4m5!3m4!1s0x872d05bc7a420079:0x87077aa553567843!8m2!3d34.728514!4d-112.0095326"
       >
         <h2

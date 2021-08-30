@@ -9,14 +9,21 @@
 }
 
 .header_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   transition: 0.6s;
   z-index: 1000;
-  margin: var(--step-2) var(--step--1);
   background-color: transparent;
+  padding: var(--padding-sides);
+}
+
+.navbar_active {
+  background-color: var(--color-navbar-white);
 }
 
 .headline {
@@ -28,6 +35,11 @@
   opacity: 0;
   animation: fade_in 0.6s ease-in forwards;
   animation-delay: 0.6s;
+  transition: all 0.6s ease-in-out;
+}
+
+.headline.hamburger_menu_open {
+  transform: translateY(-100px);
 }
 
 .drop_cap {
@@ -36,4 +48,82 @@
   padding: calc(0.34 * var(--padding-sides));
   padding-left: 0.638em;
   margin-right: calc(0.36 * var(--padding-sides));
+}
+
+.nav {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  opacity: 0;
+  animation: fade_in 0.6s ease-in forwards;
+  animation-delay: 0.6s;
+}
+
+.burger {
+  width: 30px;
+  height: 2px;
+  background-color: var(--background-color-button);
+  border-radius: var(--border-radius-input);
+  transition: all 0.3s ease-in-out;
+}
+
+.burger::before,
+.burger::after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  background-color: var(--background-color-button);
+  border-radius: var(--border-radius-input);
+  transition: all 0.3s ease-in-out;
+}
+
+.burger::before {
+  transform: translateY(-8px);
+}
+
+.burger::after {
+  transform: translateY(8px);
+}
+
+.hamburger_menu_open .burger {
+  transform: translateX(-8px);
+  background-color: transparent;
+  z-index: 3000;
+}
+
+.hamburger_menu_open .burger::before {
+  transform: rotate(45deg) translate(6px, -6px);
+  background-color: var(--color-navbar-white);
+}
+
+.hamburger_menu_open .burger::after {
+  transform: rotate(-45deg) translate(6px, 6px);
+  background-color: var(--color-navbar-white);
+}
+
+.nav_overlay {
+  background-color: var(--background-color-overlay);
+  position: fixed;
+  top: -1px;
+  left: 0;
+  width: 100vw;
+  height: calc(100vh + 1px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.4s ease;
+  opacity: 0;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.nav_overlay.menu_open {
+  opacity: 1;
+  z-index: 2000;
 }
