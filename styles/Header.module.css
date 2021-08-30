@@ -60,7 +60,6 @@
   cursor: pointer;
   opacity: 0;
   animation: fade_in 0.6s ease-in forwards;
-  animation-delay: 0.6s;
 }
 
 .burger {
@@ -126,4 +125,39 @@
 .nav_overlay.menu_open {
   opacity: 1;
   z-index: 2000;
+}
+
+.icon {
+  height: var(--icon-height);
+  width: var(--icon-width);
+  stroke-width: 1;
+  fill: none;
+  opacity: 0;
+  animation: fade_in 0.6s ease-in forwards;
+  animation-delay: 0.2s;
+  stroke: var(--color-white);
+}
+
+.icon > * {
+  stroke: var(--color-white);
+}
+
+.icon_arrow_up {
+  height: 3.625rem;
+  width: 3.625rem;
+  stroke-width: 1.325px;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  border-radius: 0%;
+  z-index: 1000;
+  transition: 0.2s;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.scroll_to_top_active {
+  background-color: var(--background-color-button);
+  visibility: visible;
+  opacity: 0.4;
 }

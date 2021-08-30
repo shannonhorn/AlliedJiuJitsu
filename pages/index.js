@@ -25,7 +25,7 @@ const Home = () => {
         <meta charSet="UTF-8" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+      <a id="top"></a>
       <main className={styles.main}>
         <Header
           hamburgerMenuOpen={hamburgerMenuOpen}

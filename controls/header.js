@@ -3,8 +3,44 @@ import styles from "../styles/Header.module.css";
 
 const Header = ({ hamburgerMenuOpen, setHamburgerMenuOpen }) => {
   const [navbarActive, setNavbarActive] = useState(false);
+  const [uiState, setUIState] = useState({});
   useEffect(() => {
     window.addEventListener("scroll", UpdateNavBar);
+    const smoothScroll = (destination, duration) => {
+      const target = document.querySelector(destination);
+      const targetPosition = target.getBoundingClientRect().top;
+      const startPosition = window.pageYOffset;
+      let startTime = null;
+
+      const animateScroll = (currentTime) => {
+        if (startTime === null) {
+          startTime = currentTime;
+        }
+        let timeElapsed = currentTime - startTime;
+        let runAnimation = easeInOutQuad(
+          timeElapsed,
+          startPosition,
+          targetPosition,
+          duration
+        );
+        window.scrollTo(0, runAnimation);
+        if (timeElapsed < duration) {
+          requestAnimationFrame(animateScroll);
+        }
+      };
+
+      let easeInOutQuad = (t, b, c, d) => {
+        t /= d / 2;
+        if (t < 1) return (c / 2) * t * t + b;
+        t--;
+        return (-c / 2) * (t * (t - 2) - 1) + b;
+      };
+
+      requestAnimationFrame(animateScroll);
+    };
+    document
+      .querySelector(".scroll-to-top")
+      .addEventListener("click", () => smoothScroll("#top", 400));
     return () => window.removeEventListener("scroll", UpdateNavBar);
   }, []);
   const UpdateNavBar = () => {
@@ -14,9 +50,13 @@ const Header = ({ hamburgerMenuOpen, setHamburgerMenuOpen }) => {
     if (!hamburgerMenuOpen) {
       document.body.classList.add("no_scroll");
       setHamburgerMenuOpen(true);
+      let uiState = { navBarState: navbarActive };
+      setUIState(uiState);
+      setNavbarActive(false);
     } else {
       document.body.classList.remove("no_scroll");
       setHamburgerMenuOpen(false);
+      setNavbarActive(uiState.navBarState);
     }
   };
   return (
@@ -45,6 +85,25 @@ const Header = ({ hamburgerMenuOpen, setHamburgerMenuOpen }) => {
           }`}
         ></div>
       </nav>
+      <svg
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        className={`scroll-to-top ${styles.icon} ${styles.icon_arrow_up} ${
+          navbarActive ? styles.scroll_to_top_active : ""
+        }`}
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          d="M17.25 10.25L12 4.75L6.75 10.25"
+        ></path>
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          d="M12 19.25V5.75"
+        ></path>
+      </svg>
     </header>
   );
 };
