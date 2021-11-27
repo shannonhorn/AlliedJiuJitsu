@@ -61,9 +61,10 @@
   color: var(--color);
   text-transform: uppercase;
   font-weight: 400;
-  font-size: var(--step-2);
+  font-size: var(--step-1);
   letter-spacing: var(--spacing-letter-base) !important;
   margin: var(--spacing-base) calc(0.5 * var(--spacing-base));
+  margin-bottom: var(--step-0);
   opacity: 0;
   animation-delay: 0.6s;
 }
@@ -78,7 +79,7 @@
 }
 
 .headline_sub {
-  font-size: var(--step--2);
+  font-size: var(--step--3);
   text-align: center;
   margin: var(--spacing-quarter-half);
   letter-spacing: var(--spacing-letter-half);

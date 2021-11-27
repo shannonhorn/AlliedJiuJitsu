@@ -1,5 +1,14 @@
-import React, { useState, useEffect } from "react";
+import Link from "next/link";
+import { useState, useEffect } from "react";
 import styles from "../styles/Header.module.css";
+
+// TODO: trap focus in nav (while it is open) so that we cannot trigger click events on background
+// - make items under overlay not clickable...
+// - set focus when open to first link
+// TODO: ensure nav close button is white
+// TODO: finish building out nav
+// TODO: make the site work down to 320 px
+// TODO: create content outline
 
 const Header = ({ hamburgerMenuOpen, setHamburgerMenuOpen }) => {
   const [navbarActive, setNavbarActive] = useState(false);
@@ -66,11 +75,34 @@ const Header = ({ hamburgerMenuOpen, setHamburgerMenuOpen }) => {
       }`}
     >
       <div
+        className={`${styles.nav_overlay} ${
+          hamburgerMenuOpen ? styles.menu_open : ""
+        }`}
+      >
+        <ul className={styles.nav_menu}>
+          <li className={styles.nav_menu_item}>
+            <Link href="/">
+              <a>HOME</a>
+            </Link>
+          </li>
+          <li className={styles.nav_menu_item}>PROGRAMS</li>
+          <li className={styles.nav_menu_item}>SCHEDULE</li>
+          <li className={styles.nav_menu_item}>INSTRUCTORS</li>
+          <li className={styles.nav_menu_item}>ACADEMY</li>
+          <li className={styles.nav_menu_item}>STORE</li>
+          <li className={styles.nav_menu_item}>CONTACT</li>
+        </ul>
+      </div>
+      <div
         className={`${styles.headline} ${
           hamburgerMenuOpen ? styles.hamburger_menu_open : ""
         }`}
       >
-        <span className={styles.drop_cap}>A</span>LLIED JIU JITSU
+        <Link href="/">
+          <a>
+            <span className={styles.drop_cap}>A</span>LLIED JIU JITSU
+          </a>
+        </Link>
       </div>
       <nav
         className={`${styles.nav} ${
@@ -78,31 +110,20 @@ const Header = ({ hamburgerMenuOpen, setHamburgerMenuOpen }) => {
         }`}
         onClick={OpenMenu}
       >
-        <div className={styles.burger}></div>
         <div
-          className={`${styles.nav_overlay} ${
-            hamburgerMenuOpen ? styles.menu_open : ""
+          className={`${styles.burger} ${
+            hamburgerMenuOpen ? styles.hamburger_menu_open : ""
           }`}
         ></div>
       </nav>
       <svg
-        width="24"
-        height="24"
         viewBox="0 0 24 24"
         className={`scroll-to-top ${styles.icon} ${styles.icon_arrow_up} ${
           navbarActive ? styles.scroll_to_top_active : ""
         }`}
       >
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          d="M17.25 10.25L12 4.75L6.75 10.25"
-        ></path>
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          d="M12 19.25V5.75"
-        ></path>
+        <path d="M17.25 10.25L12 4.75L6.75 10.25"></path>
+        <path d="M12 19.25V5.75"></path>
       </svg>
     </header>
   );

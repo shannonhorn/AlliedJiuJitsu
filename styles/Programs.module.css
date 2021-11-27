@@ -1,0 +1,32 @@
+.programs {
+  --flow-space: var(--step-0);
+  padding: calc(1.5 * var(--padding-section-top-bottom))
+    var(--padding-section-sides);
+  padding-top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  height: var(--icon-height);
+  width: var(--icon-width);
+  stroke-width: 1;
+  fill: none;
+}
+
+.icon > * {
+  stroke: var(--color);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.headline {
+  font-family: var(--font-heading);
+  font-size: var(--step--2);
+  margin-bottom: var(--spacing-base);
+  color: var(--color);
+  text-transform: uppercase;
+  letter-spacing: var(--spacing-letter-base);
+}

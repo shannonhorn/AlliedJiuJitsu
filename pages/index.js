@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Header from "../controls/header";
 import Marquee from "../controls/marquee";
 import Newsletter from "../controls/newsletter";
+import Programs from "../controls/programs";
 import styles from "../styles/Home.module.css";
 
 const Home = () => {
@@ -33,6 +34,7 @@ const Home = () => {
         />
         <Marquee />
         <Newsletter />
+        <Programs />
       </main>
     </div>
   );
