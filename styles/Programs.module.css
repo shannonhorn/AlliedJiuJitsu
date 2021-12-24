@@ -30,3 +30,11 @@
   text-transform: uppercase;
   letter-spacing: var(--spacing-letter-base);
 }
+
+.programs_grid {
+  display: flex;
+}
+
+.program {
+  display: flex;
+}

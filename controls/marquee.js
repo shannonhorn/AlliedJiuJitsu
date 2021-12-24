@@ -3,9 +3,6 @@ import styles from "../styles/Marquee.module.css";
 const Marquee = () => (
   <section aria-label="marquee" className={styles.marquee}>
     <div className={styles.marquee_copy}>
-      <h1 className={`${styles.headline} ${styles.animatePopIn}`}>
-        Allied Jiu Jitsu
-      </h1>
       <h2
         className={`${styles.title} ${styles.headline} ${styles.headline_sub} ${styles.animatePopIn}`}
       >

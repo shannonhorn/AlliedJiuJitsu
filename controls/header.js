@@ -2,14 +2,6 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 import styles from "../styles/Header.module.css";
 
-// TODO: trap focus in nav (while it is open) so that we cannot trigger click events on background
-// - make items under overlay not clickable...
-// - set focus when open to first link
-// TODO: ensure nav close button is white
-// TODO: finish building out nav
-// TODO: make the site work down to 320 px
-// TODO: create content outline
-
 const Header = ({ hamburgerMenuOpen, setHamburgerMenuOpen }) => {
   const [navbarActive, setNavbarActive] = useState(false);
   const [uiState, setUIState] = useState({});
@@ -85,9 +77,21 @@ const Header = ({ hamburgerMenuOpen, setHamburgerMenuOpen }) => {
               <a>HOME</a>
             </Link>
           </li>
-          <li className={styles.nav_menu_item}>PROGRAMS</li>
-          <li className={styles.nav_menu_item}>SCHEDULE</li>
-          <li className={styles.nav_menu_item}>INSTRUCTORS</li>
+          <li className={styles.nav_menu_item}>
+            <Link href="/programs">
+              <a>PROGRAMS</a>
+            </Link>
+          </li>
+          <li className={styles.nav_menu_item}>
+            <Link href="/schedule">
+              <a>SCHEDULE</a>
+            </Link>
+          </li>
+          <li className={styles.nav_menu_item}>
+            <Link href="/instructors">
+              <a>INSTRUCTORS</a>
+            </Link>
+          </li>
           <li className={styles.nav_menu_item}>ACADEMY</li>
           <li className={styles.nav_menu_item}>STORE</li>
           <li className={styles.nav_menu_item}>CONTACT</li>
@@ -99,9 +103,11 @@ const Header = ({ hamburgerMenuOpen, setHamburgerMenuOpen }) => {
         }`}
       >
         <Link href="/">
-          <a>
-            <span className={styles.drop_cap}>A</span>LLIED JIU JITSU
-          </a>
+          <h1>
+            <a>
+              <span className={styles.drop_cap}>A</span>LLIED JIU JITSU
+            </a>
+          </h1>
         </Link>
       </div>
       <nav
