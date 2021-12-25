@@ -63,7 +63,7 @@
   color: var(--color);
   text-transform: uppercase;
   font-weight: 400;
-  font-size: var(--step-1);
+  font-size: var(--step-2);
   letter-spacing: var(--spacing-letter-base) !important;
   margin: var(--spacing-base) calc(0.5 * var(--spacing-base));
   margin-bottom: var(--step-0);
@@ -81,7 +81,7 @@
 }
 
 .headline_sub {
-  font-size: var(--step--3);
+  font-size: var(--step--2);
   text-align: center;
   margin: var(--spacing-quarter-half);
   letter-spacing: var(--spacing-letter-half);

@@ -102,7 +102,7 @@ const Header = ({ hamburgerMenuOpen, setHamburgerMenuOpen }) => {
           hamburgerMenuOpen ? styles.hamburger_menu_open : ""
         }`}
       >
-        <Link href="/">
+        <Link href="/" passHref>
           <h1>
             <a>
               <span className={styles.drop_cap}>A</span>LLIED JIU JITSU
