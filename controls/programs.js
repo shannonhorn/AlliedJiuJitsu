@@ -1,8 +1,15 @@
+import Image from "next/image";
 import styles from "../styles/Programs.module.css";
+import imageHomeJiuJitsu from "../public/images/homeJiuJitsu.jpg";
 
 const Programs = () => {
   return (
     <section aria-label="programs" className={`${styles.programs} flow`}>
+      <Image
+        src={imageHomeJiuJitsu}
+        alt="Allied Jiu Jitsu Brazilian jiu jitsu program."
+        layout="responsive"
+      />
       <svg
         className={styles.icon}
         viewBox="0 0 24 24"
@@ -15,8 +22,12 @@ const Programs = () => {
       </svg>
       <div className={styles.headline}>PROGRAMS</div>
       <section className={styles.programs_grid}>
-        <article className={styles.program}>
-          <div className={styles.program_image}></div>
+        <article>
+          <Image
+            src={imageHomeJiuJitsu}
+            alt="Allied Jiu Jitsu Brazilian jiu jitsu program."
+            layout="responsive"
+          />
         </article>
       </section>
     </section>

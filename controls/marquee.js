@@ -4,7 +4,7 @@ const Marquee = () => (
   <section aria-label="marquee" className={styles.marquee}>
     <div className={styles.marquee_copy}>
       <h2
-        className={`${styles.title} ${styles.headline} ${styles.headline_sub} ${styles.animatePopIn}`}
+        className={`${styles.title} ${styles.headline} ${styles.animatePopIn}`}
       >
         PEORIA
       </h2>
@@ -30,7 +30,7 @@ const Marquee = () => (
       </h2>
       <hr className={`${styles.separator} ${styles.animatePopIn}`} />
       <h2
-        className={`${styles.title} ${styles.headline} ${styles.headline_sub} ${styles.animatePopIn}`}
+        className={`${styles.title} ${styles.headline} ${styles.animatePopIn}`}
       >
         COTTONWOOD
       </h2>

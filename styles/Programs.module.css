@@ -1,3 +1,13 @@
+/* keyframes and animations */
+@keyframes fade_in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .programs {
   --flow-space: var(--step-0);
   padding: calc(1.5 * var(--padding-section-top-bottom))
@@ -14,6 +24,9 @@
   width: var(--icon-width);
   stroke-width: 1;
   fill: none;
+  opacity: 0;
+  animation: fade_in 0.6s ease-in forwards;
+  animation-delay: 0.6s;
 }
 
 .icon > * {
@@ -29,12 +42,29 @@
   color: var(--color);
   text-transform: uppercase;
   letter-spacing: var(--spacing-letter-base);
+  opacity: 0;
+  animation: fade_in 0.6s ease-in forwards;
+  animation-delay: 0.6s;
 }
 
 .programs_grid {
-  display: flex;
+  --w: 400px;
+  --n: 2;
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(
+      clamp(100%/ (var(--n) + 1) + 0.1%, (var(--w) - 100vw) * 1000, 100%),
+      1fr
+    )
+  );
+  gap: 10px;
 }
 
-.program {
-  display: flex;
+.programs_grid > article {
+  display: block;
+}
+
+.programs_grid > article img {
+  aspect-ratio: 16/9;
 }
