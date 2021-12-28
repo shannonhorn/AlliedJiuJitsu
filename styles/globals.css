@@ -146,6 +146,13 @@ h6 {
   overflow-wrap: break-word;
 }
 
+h1,h2,h3,h4 {
+  font-family: var(--font-heading);
+  color: var(--color);
+  text-transform: uppercase;
+  letter-spacing: var(--spacing-letter-base);
+}
+
 #root,
 #__next {
   isolation: isolate;

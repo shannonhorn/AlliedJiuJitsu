@@ -5,11 +5,6 @@ import imageHomeJiuJitsu from "../public/images/homeJiuJitsu.jpg";
 const Programs = () => {
   return (
     <section aria-label="programs" className={`${styles.programs} flow`}>
-      <Image
-        src={imageHomeJiuJitsu}
-        alt="Allied Jiu Jitsu Brazilian jiu jitsu program."
-        layout="responsive"
-      />
       <svg
         className={styles.icon}
         viewBox="0 0 24 24"
@@ -20,14 +15,16 @@ const Programs = () => {
         <path d="M3 15.9261C3 15.9261 5.14286 15.4649 6.42857 15.0036C7.71429 8.54595 11.5714 9.00721 12 9.00721C12.4286 9.00721 16.2857 8.54595 17.5714 15.0036C18.8571 15.4649 21 15.9261 21 15.9261" />
         <path d="M12 7C13.1046 7 14 6.10457 14 5C14 3.89543 13.1046 3 12 3C10.8954 3 10 3.89543 10 5C10 6.10457 10.8954 7 12 7Z" />
       </svg>
-      <div className={styles.headline}>PROGRAMS</div>
+      <h3 className={styles.headline}>PROGRAMS</h3>
       <section className={styles.programs_grid}>
         <article>
           <Image
             src={imageHomeJiuJitsu}
             alt="Allied Jiu Jitsu Brazilian jiu jitsu program."
-            layout="responsive"
+            objectFit="cover"
+            objectPosition="center top"
           />
+          <h4 className={`${styles.headline_sub} ${styles.title}`}>Brazilian Jiu Jitsu</h4>
         </article>
       </section>
     </section>

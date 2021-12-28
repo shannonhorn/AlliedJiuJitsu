@@ -78,11 +78,6 @@ const Header = ({ hamburgerMenuOpen, setHamburgerMenuOpen }) => {
             </Link>
           </li>
           <li className={styles.nav_menu_item}>
-            <Link href="/programs">
-              <a>PROGRAMS</a>
-            </Link>
-          </li>
-          <li className={styles.nav_menu_item}>
             <Link href="/schedule">
               <a>SCHEDULE</a>
             </Link>
@@ -92,8 +87,6 @@ const Header = ({ hamburgerMenuOpen, setHamburgerMenuOpen }) => {
               <a>INSTRUCTORS</a>
             </Link>
           </li>
-          <li className={styles.nav_menu_item}>ACADEMY</li>
-          <li className={styles.nav_menu_item}>STORE</li>
           <li className={styles.nav_menu_item}>CONTACT</li>
         </ul>
       </div>
