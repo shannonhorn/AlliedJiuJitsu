@@ -23,8 +23,13 @@ const Programs = () => {
             alt="Allied Jiu Jitsu Brazilian jiu jitsu program."
             objectFit="cover"
             objectPosition="center top"
+            layout="intrinsic"
+            height="3373"
+            width="5997"
           />
-          <h4 className={`${styles.headline_sub} ${styles.title}`}>Brazilian Jiu Jitsu</h4>
+          <h4 className={`${styles.headline_sub} ${styles.title}`}>
+            Brazilian Jiu Jitsu
+          </h4>
         </article>
       </section>
     </section>
