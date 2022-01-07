@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Image from "next/image";
 import styles from "../styles/Programs.module.css";
 import imageHomeJiuJitsu from "../public/images/homeJiuJitsu.jpg";
@@ -30,6 +31,30 @@ const Programs = () => {
           <h4 className={`${styles.headline_sub} ${styles.title}`}>
             Brazilian Jiu Jitsu
           </h4>
+          <div className="flow">
+            <p>
+              Do you dream of competing at a high level? Do you need to master
+              practical, real-world self-defense so that you can apply it second
+              nature? Are you interested in having a great time?
+            </p>
+            <p>
+              Brazilian Jiu Jitsu will change your life. This will sound like a
+              bold statement that you won&apos;t understand until you join the
+              jiu jitsu community and embrace the lifestyle.
+            </p>
+            <p>
+              When you join, you will immediately learn techniques that you can
+              apply that day. You will bond with and create memories with
+              amazing people who share your journey, struggles, and victories.
+            </p>
+            <p>
+              We offer gi and no-gi classes for kids and adults!{" "}
+              <Link href="/contact">
+                <a>Contact us</a>
+              </Link>{" "}
+              today or drop by to check out a class FREE.
+            </p>
+          </div>
         </article>
       </section>
     </section>

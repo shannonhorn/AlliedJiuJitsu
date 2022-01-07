@@ -50,7 +50,7 @@
     17px 33.9px 42.7px -2.1px hsl(var(--shadow-color) / 0.34),
     25px 50px 62.9px -2.5px hsl(var(--shadow-color) / 0.34);
 
-  --measure: 60ch;
+  --measure: 65ch;
 
   /* static spacing */
   --padding-top-bottom: 4px;
@@ -152,6 +152,7 @@ h4 {
   color: var(--color);
   text-transform: uppercase;
   letter-spacing: var(--spacing-letter-base);
+  max-width: var(--measure);
 }
 
 #root,
@@ -199,6 +200,17 @@ body {
 .show {
   opacity: 1;
   visibility: visible;
+}
+
+p > a {
+  text-decoration: underline;
+  font-weight: 600;
+  color: var(--color-input) !important;
+  padding-right: 2px;
+}
+
+p > a:hover {
+  color: var(--color) !important;
 }
 
 form {

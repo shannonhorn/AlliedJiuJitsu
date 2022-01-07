@@ -81,3 +81,14 @@
 .programs_grid > article img {
   aspect-ratio: 16/9;
 }
+
+.programs_grid > div {
+  --flow-space: var(--step-0);
+}
+
+.programs_grid > article > p {
+  font-family: var(--font-copy);
+  font-size: calc(0.95 * var(--step--2));
+  color: var(--color);
+  max-width: var(--measure);
+}
