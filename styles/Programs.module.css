@@ -19,45 +19,6 @@
   justify-content: center;
 }
 
-.icon {
-  height: var(--icon-height);
-  width: var(--icon-width);
-  stroke-width: 1;
-  fill: none;
-  opacity: 0;
-  animation: fade_in 0.6s ease-in forwards;
-  animation-delay: 0.6s;
-}
-
-.icon > * {
-  stroke: var(--color);
-  stroke-linecap: round;
-  stroke-linejoin: round;
-}
-
-.headline {
-  font-family: var(--font-heading);
-  font-size: var(--step--2);
-  margin-bottom: var(--spacing-base);
-  color: var(--color);
-  text-transform: uppercase;
-  letter-spacing: var(--spacing-letter-base);
-  opacity: 0;
-  animation: fade_in 0.6s ease-in forwards;
-  animation-delay: 0.6s;
-}
-
-.headline_sub {
-  font-size: var(--step--2);
-  margin-top: var(--spacing-quarter-half);
-  letter-spacing: var(--spacing-letter-half);
-}
-
-.title {
-  font-weight: 600;
-  margin-bottom: var(--spacing-quarter-half);
-}
-
 .programs_grid {
   --w: 400px;
   --n: 2;
@@ -78,15 +39,25 @@
   flex-direction: column;
 }
 
-.programs_grid > article img {
-  aspect-ratio: 16/9;
+.programs_grid > article:not(:first-child) {
+  border-top-style: solid;
+  border-top-color: var(--color-gray);
+  border-top-width: var(--border-width-half);
+  margin-top: 2rem;
+  padding-top: 2rem;
 }
 
-.programs_grid > div {
+.programs_grid > article > img,
+.programs_grid > article > div > div {
+  aspect-ratio: 16/9 !important;
+  margin-top: 20px !important;
+}
+
+.programs_grid div {
   --flow-space: var(--step-0);
 }
 
-.programs_grid > article > p {
+.programs_grid > article p {
   font-family: var(--font-copy);
   font-size: calc(0.95 * var(--step--2));
   color: var(--color);

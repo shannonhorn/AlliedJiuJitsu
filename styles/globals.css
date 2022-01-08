@@ -206,7 +206,6 @@ p > a {
   text-decoration: underline;
   font-weight: 600;
   color: var(--color-input) !important;
-  padding-right: 2px;
 }
 
 p > a:hover {
@@ -259,4 +258,43 @@ button {
   border: none;
   white-space: nowrap;
   user-select: none;
+}
+
+.icon {
+  height: var(--icon-height);
+  width: var(--icon-width);
+  stroke-width: 1;
+  fill: none;
+  opacity: 0;
+  animation: fade_in 0.6s ease-in forwards;
+  animation-delay: 0.6s;
+}
+
+.icon > * {
+  stroke: var(--color);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.headline {
+  font-family: var(--font-heading);
+  font-size: var(--step--2);
+  margin-bottom: var(--spacing-base);
+  color: var(--color);
+  text-transform: uppercase;
+  letter-spacing: var(--spacing-letter-base);
+  opacity: 0;
+  animation: fade_in 0.6s ease-in forwards;
+  animation-delay: 0.6s;
+}
+
+.headline_sub {
+  font-size: var(--step--1);
+  margin-top: var(--spacing-quarter-half);
+  letter-spacing: var(--spacing-letter-half);
+}
+
+.title {
+  font-weight: 600;
+  margin-bottom: var(--spacing-quarter-half);
 }
