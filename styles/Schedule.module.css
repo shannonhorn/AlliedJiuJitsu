@@ -1,0 +1,123 @@
+/* keyframes and animations */
+@keyframes fade_in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes pop_in {
+  0% {
+    opacity: 0;
+    transform: translateY(-4rem) scale(0.8);
+  }
+  100% {
+    opacity: 0.8;
+    transform: none;
+  }
+}
+
+.animatePopIn {
+  opacity: 0;
+  animation: pop_in 0.6s cubic-bezier(0, 0.9, 0.3, 1.2) forwards;
+}
+
+.marquee {
+  background-color: var(--background-color);
+  color: var(--color-light);
+  height: 100vh;
+  width: 100vw;
+  animation: fade_in 2s 0.5s cubic-bezier(0, 0.5, 0, 1) forwards;
+  background-image: url("../public/images/scheduleMarquee_mobile.webp");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: cover;
+  aspect-ratio: 9/16;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  opacity: 0;
+}
+
+@media (min-width: 48em) {
+  .marquee {
+    background-image: url("../public/images/scheduleMarquee_full.webp");
+    aspect-ratio: 16/9;
+  }
+}
+
+.marquee_copy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-top-bottom);
+  border-radius: var(--border-radius-card);
+}
+
+.headline {
+  font-family: var(--font-heading);
+  color: var(--color);
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: var(--step-0);
+  letter-spacing: var(--spacing-letter-base) !important;
+  margin: var(--spacing-base) calc(0.5 * var(--spacing-base));
+  margin-bottom: var(--step-0);
+  opacity: 0;
+  animation-delay: 0.6s;
+}
+
+.separator {
+  width: 90vw;
+  border-style: solid;
+  border-color: var(--color-gray);
+  border-width: var(--border-width-half);
+  margin: var(--spacing-base) 0;
+  animation-delay: 0.8s;
+}
+
+.headline_sub {
+  font-size: var(--step--2);
+  text-align: center;
+  margin: var(--spacing-quarter-half);
+  letter-spacing: var(--spacing-letter-half);
+  animation-delay: 0.8s;
+}
+
+.title {
+  font-weight: 600;
+  margin-bottom: var(--spacing-quarter-half);
+}
+
+.schedule_title {
+  font-size: var(--step--3);
+  text-transform: uppercase;
+}
+
+.schedule {
+  --flow-space: var(--step-0);
+  padding: calc(1.5 * var(--padding-section-top-bottom))
+    var(--padding-section-sides);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.schedule_grid {
+  --flow-space: var(--step--2);
+  align-self: flex-start;
+  width: 100%;
+}
+
+.schedule_title_separator {
+  border-bottom-style: solid;
+  border-bottom-color: var(--color-gray);
+  border-bottom-width: var(--border-width-half);
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+}
