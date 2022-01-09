@@ -1,0 +1,48 @@
+.footer {
+  background-color: var(--background-color);
+  color: var(--color-light);
+  display: flex;
+  height: 11.089rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 1rem;
+  text-align: center;
+}
+
+.social_media_links {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  width: 100vw;
+  align-items: center;
+}
+
+.social_media_link {
+  font-family: var(--font-headline);
+  font-size: var(--step--3);
+  text-transform: uppercase;
+  color: var(--color-light);
+  letter-spacing: 0.136rem;
+  transition: all 0.4s ease;
+}
+
+.social_media_link:hover,
+.social_media_link:focus,
+.social_media_link:active,
+.social_media_link:visited {
+  color: var(--color);
+}
+
+.copyright {
+  font-size: var(--supertiny);
+  margin-top: 1rem;
+}
+
+.copyright > div {
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top:1rem;
+  margin-bottom: 1rem;
+}

@@ -50,7 +50,7 @@
     17px 33.9px 42.7px -2.1px hsl(var(--shadow-color) / 0.34),
     25px 50px 62.9px -2.5px hsl(var(--shadow-color) / 0.34);
 
-  --measure: 65ch;
+  --measure: 80ch;
 
   /* static spacing */
   --padding-top-bottom: 4px;
@@ -166,7 +166,6 @@ body {
   -webkit-font-smoothing: antialiased;
   font-family: var(--font-copy);
   color: var(--color);
-  background-color: var(--background-color);
   overflow-x: hidden;
 }
 
@@ -202,14 +201,29 @@ body {
   visibility: visible;
 }
 
-p > a {
+p > a,
+p > a:hover,
+p > a:focus,
+p > a:active,
+p > a:visited {
   text-decoration: underline;
   font-weight: 600;
-  color: var(--color-input) !important;
+  color: var(--color);
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all 0.3s cubic-bezier(0.3, 0.1, 0.58, 1);
 }
 
 p > a:hover {
-  color: var(--color) !important;
+  color: hsl(180, 6.7%, 53.3%);
+}
+
+p > a:visited {
+  color: hsl(180, 20.3%, 25.1%);
+}
+
+ul {
+  margin-left:1.5rem;
 }
 
 form {

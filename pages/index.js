@@ -3,6 +3,7 @@ import Header from "../controls/header";
 import Marquee from "../controls/marquee";
 import Newsletter from "../controls/newsletter";
 import Programs from "../controls/programs";
+import Footer from "../controls/footer";
 import styles from "../styles/Home.module.css";
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
         <Marquee />
         <Newsletter />
         <Programs />
+        <Footer/>
       </main>
     </div>
   );

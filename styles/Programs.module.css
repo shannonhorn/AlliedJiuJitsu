@@ -20,8 +20,8 @@
 }
 
 .programs_grid {
-  --w: 400px;
-  --n: 2;
+  --w: 1200px;
+  --n: 1;
   display: grid;
   grid-template-columns: repeat(
     auto-fit,
@@ -57,9 +57,14 @@
   --flow-space: var(--step-0);
 }
 
-.programs_grid > article p {
+.programs_grid > article p,
+.programs_grid > article ul {
   font-family: var(--font-copy);
   font-size: calc(0.95 * var(--step--2));
   color: var(--color);
   max-width: var(--measure);
+}
+
+.quotation {
+  font-style: italic;
 }
