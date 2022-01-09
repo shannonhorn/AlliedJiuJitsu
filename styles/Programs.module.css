@@ -43,8 +43,8 @@
   border-top-style: solid;
   border-top-color: var(--color-gray);
   border-top-width: var(--border-width-half);
-  margin-top: 2rem;
-  padding-top: 2rem;
+  margin-top: 3rem;
+  padding-top: 2.5rem;
 }
 
 .programs_grid > article > img,

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React, { useState } from "react";
 import Header from "../controls/header";
 import Footer from "../controls/footer";
@@ -42,53 +43,340 @@ const Schedule = () => {
             <path d="M7.75 10.75H16.25"></path>
           </svg>
           <h3 className="headline">WHEN TO MEET</h3>
-          <section className={styles.schedule_grid}>
-            <div className="flow">
-              <section>
-                <div className={`${styles.title} ${styles.schedule_title}`}>
-                  UPCOMING SPECIAL EVENTS
-                </div>
-                <div className={styles.schedule_title_separator}></div>
-              </section>
-              <section>
+          <section className={`${styles.schedule_grid} flow`}>
+            <section className={styles.schedule_copy}>
+              NOTE: The schedule below applies to our HQ location in Peoria, AZ.
+              If you&apos;re looking for the schedule for our Cottonwood, AZ
+              location,{" "}
+              <Link href="https://cottonwoodbjj.com">
+                <a target="_blank">click here</a>
+              </Link>
+              .
+            </section>
+            <section>
               <div className={`${styles.title} ${styles.schedule_title}`}>
-                  Monday
-                </div>
-              </section>
-              <section>
+                UPCOMING SPECIAL EVENTS
+              </div>
+              <ul className={styles.schedule_special_events}>
+                <li>
+                  <div className={styles.schedule_heading}>
+                    January 23, 2022 @ 10 am
+                  </div>
+                  <div>Livio Ribeiro Seminar</div>
+                  <div>Allied Jiu Jitsu HQ</div>
+                  <div>$40 for Ares members, $50 for non-Ares members</div>
+                </li>
+                <li>
+                  <div className={styles.schedule_heading}>
+                    February 12, 2022
+                  </div>
+                  <div>AZ International Open</div>
+                  <Link href="https://azbjjf.smoothcomp.com/en/event/6241">
+                    <a target="_blank">Click here for details</a>
+                  </Link>
+                </li>
+                <li>
+                  <div className={styles.schedule_heading}>
+                    February 26, 2022
+                  </div>
+                  <div>American Grappling Federation</div>
+                  <Link href="https://americangrapplingfederation.com/tournaments/310?mc_cid=7c6ea5a99a&mc_eid=346309a88a">
+                    <a target="_blank">Click here for details</a>
+                  </Link>
+                </li>
+                <li>
+                  <div className={styles.schedule_heading}>March 12, 2022</div>
+                  <div>Jiu Jitsu World League</div>
+                  <Link href="https://www.jjworldleague.com/events/phx-2022-adults">
+                    <a target="_blank">Click here for details</a>
+                  </Link>
+                </li>
+                <li>
+                  <div className={styles.schedule_heading}>April 3, 2022</div>
+                  <div>Grappling Industries</div>
+                  <Link href="https://grapplingindustries.smoothcomp.com/en/event/5424">
+                    <a target="_blank">Click here for details</a>
+                  </Link>
+                </li>
+                <li>
+                  <div className={styles.schedule_heading}>April 16, 2022</div>
+                  <div>Copa Bela (female only)</div>
+                  <Link href="https://azbjjf.smoothcomp.com/en/event/6330">
+                    <a target="_blank">Click here for details</a>
+                  </Link>
+                </li>
+                <li>
+                  <div className={styles.schedule_heading}>April 16, 2022</div>
+                  <div>Kids Cup</div>
+                  <Link href="https://azbjjf.smoothcomp.com/en/event/6332">
+                    <a target="_blank">Click here for details</a>
+                  </Link>
+                </li>
+              </ul>
+              <div className={styles.schedule_title_separator}></div>
+            </section>
+            <section>
               <div className={`${styles.title} ${styles.schedule_title}`}>
-                  Tuesday
-                </div>
-              </section>
-              <section>
+                Monday
+              </div>
+              <ul>
+                <li>
+                  <span className={styles.schedule_heading}>6:00 am</span>
+                  <span className={styles.schedule_name}>
+                    Adults Jiu Jitsu (Gi)
+                  </span>
+                </li>
+                <li>
+                  <span className={styles.schedule_heading}>9:00 am</span>
+                  <span className={styles.schedule_name}>
+                    Adults Jiu Jitsu (Gi)
+                  </span>
+                </li>
+                <li>
+                  <span className={styles.schedule_heading}>4:30 pm</span>
+                  <span className={styles.schedule_name}>
+                    Kids Jiu Jitsu (Gi - ages 3 - 5)
+                  </span>
+                </li>
+                <li>
+                  <span className={styles.schedule_heading}>5:00 pm</span>
+                  <span className={styles.schedule_name}>
+                    Kids Jiu Jitsu (Gi - ages 6+)
+                  </span>
+                </li>
+                <li>
+                  <span className={styles.schedule_heading}>5:00 pm</span>
+                  <span className={styles.schedule_name}>
+                    Teen Jiu Jitsu (Gi)
+                  </span>
+                </li>
+                <li>
+                  <span className={styles.schedule_heading}>6:00 pm</span>
+                  <span className={styles.schedule_name}>
+                    Adults Jiu Jitsu (Gi)
+                  </span>
+                </li>
+                <li>
+                  <span className={styles.schedule_heading}>7:00 pm</span>
+                  <span className={styles.schedule_name}>
+                    Adult Competition Jiu Jitsu Training (Gi)
+                  </span>
+                </li>
+              </ul>
+            </section>
+            <section>
               <div className={`${styles.title} ${styles.schedule_title}`}>
-                  Wednesday
-                </div>
-              </section>
-              <section>
+                Tuesday
+              </div>
+              <ul>
+                <li>
+                  <span className={styles.schedule_heading}>6:00 am</span>
+                  <span className={styles.schedule_name}>
+                    Adults Jiu Jitsu (Gi, FREE For vets, police, firemen, first
+                    responders, and Allied members)
+                  </span>
+                </li>
+                <li>
+                  <span className={styles.schedule_heading}>9:00 am</span>
+                  <span className={styles.schedule_name}>
+                    Kids Jiu Jitsu (Gi, homeschool students)
+                  </span>
+                </li>
+                <li>
+                  <span className={styles.schedule_heading}>4:30 pm</span>
+                  <span className={styles.schedule_name}>
+                    Kids Jiu Jitsu (No Gi - ages 3 - 5)
+                  </span>
+                </li>
+                <li>
+                  <span className={styles.schedule_heading}>5:00 pm</span>
+                  <span className={styles.schedule_name}>
+                    Kids Jiu Jitsu (No Gi - ages 6+)
+                  </span>
+                </li>
+                <li>
+                  <span className={styles.schedule_heading}>6:00 pm</span>
+                  <span className={styles.schedule_name}>
+                    Adults Jiu Jitsu (No Gi)
+                  </span>
+                </li>
+                <li>
+                  <span className={styles.schedule_heading}>6:00 pm</span>
+                  <span className={styles.schedule_name}>Youth Striking</span>
+                </li>
+                <li>
+                  <span className={styles.schedule_heading}>7:00 pm</span>
+                  <span className={styles.schedule_name}>Adult Striking</span>
+                </li>
+              </ul>
+            </section>
+            <section>
               <div className={`${styles.title} ${styles.schedule_title}`}>
-                  Thursday
-                </div>
-              </section>
-              <section>
+                Wednesday
+              </div>
+              <ul>
+                <li>
+                  <span className={styles.schedule_heading}>6:00 am</span>
+                  <span className={styles.schedule_name}>
+                    Adults Jiu Jitsu (Gi)
+                  </span>
+                </li>
+                <li>
+                  <span className={styles.schedule_heading}>9:00 am</span>
+                  <span className={styles.schedule_name}>
+                    Adults Jiu Jitsu (Gi)
+                  </span>
+                </li>
+                <li>
+                  <span className={styles.schedule_heading}>4:30 pm</span>
+                  <span className={styles.schedule_name}>
+                    Kids Jiu Jitsu (Gi - ages 3 - 5)
+                  </span>
+                </li>
+                <li>
+                  <span className={styles.schedule_heading}>5:00 pm</span>
+                  <span className={styles.schedule_name}>
+                    Kids Jiu Jitsu (Gi - ages 6+)
+                  </span>
+                </li>
+                <li>
+                  <span className={styles.schedule_heading}>5:00 pm</span>
+                  <span className={styles.schedule_name}>
+                    Teen Jiu Jitsu (Gi)
+                  </span>
+                </li>
+                <li>
+                  <span className={styles.schedule_heading}>6:00 pm</span>
+                  <span className={styles.schedule_name}>
+                    Adults Fundamentals Jiu Jitsu (Gi)
+                  </span>
+                </li>
+                <li>
+                  <span className={styles.schedule_heading}>6:00 pm</span>
+                  <span className={styles.schedule_name}>
+                    Adults Advanced Jiu Jitsu (Gi)
+                  </span>
+                </li>
+              </ul>
+            </section>
+            <section>
               <div className={`${styles.title} ${styles.schedule_title}`}>
-                  Friday
-                </div>
-              </section>
-              <section>
+                Thursday
+              </div>
+              <ul>
+                <li>
+                  <span className={styles.schedule_heading}>6:00 am</span>
+                  <span className={styles.schedule_name}>
+                    Adults Jiu Jitsu (Gi, FREE For vets, police, firemen, first
+                    responders, and Allied members)
+                  </span>
+                </li>
+                <li>
+                  <span className={styles.schedule_heading}>9:00 am</span>
+                  <span className={styles.schedule_name}>
+                    Kids Jiu Jitsu (Gi, homeschool students)
+                  </span>
+                </li>
+                <li>
+                  <span className={styles.schedule_heading}>10:00 am</span>
+                  <span className={styles.schedule_name}>
+                    Adults Jiu Jitsu (Gi)
+                  </span>
+                </li>
+                <li>
+                  <span className={styles.schedule_heading}>4:30 pm</span>
+                  <span className={styles.schedule_name}>
+                    Kids Jiu Jitsu (No Gi - ages 3 - 5)
+                  </span>
+                </li>
+                <li>
+                  <span className={styles.schedule_heading}>5:00 pm</span>
+                  <span className={styles.schedule_name}>
+                    Kids Jiu Jitsu (No Gi - ages 6+)
+                  </span>
+                </li>
+                <li>
+                  <span className={styles.schedule_heading}>6:00 pm</span>
+                  <span className={styles.schedule_name}>
+                    Adults Jiu Jitsu (No Gi)
+                  </span>
+                </li>
+                <li>
+                  <span className={styles.schedule_heading}>6:00 pm</span>
+                  <span className={styles.schedule_name}>Youth Striking</span>
+                </li>
+                <li>
+                  <span className={styles.schedule_heading}>7:00 pm</span>
+                  <span className={styles.schedule_name}>Adult Striking</span>
+                </li>
+              </ul>
+            </section>
+            <section>
               <div className={`${styles.title} ${styles.schedule_title}`}>
-                  Saturday
-                </div>
-              </section>
-              <section>
+                Friday
+              </div>
+              <ul>
+                <li>
+                  <span className={styles.schedule_heading}>9:00 am</span>
+                  <span className={styles.schedule_name}>
+                    Adults Jiu Jitsu (Gi)
+                  </span>
+                </li>
+                <li>
+                  <span className={styles.schedule_heading}>6:00 pm</span>
+                  <span className={styles.schedule_name}>
+                    Open Mat (everyone welcome, no mat fees)
+                  </span>
+                </li>
+              </ul>
+            </section>
+            <section>
               <div className={`${styles.title} ${styles.schedule_title}`}>
-                  Sunday
-                </div>
-              </section>
-            </div>
+                Saturday
+              </div>
+              <ul>
+                <li>
+                  <span className={styles.schedule_heading}>6:00 am</span>
+                  <span className={styles.schedule_name}>
+                    Allied Functional Fitness (Af<span className={styles.super}>2</span>)
+                  </span>
+                </li>
+                <li>
+                  <span className={styles.schedule_heading}>9:00 pm</span>
+                  <span className={styles.schedule_name}>
+                    Kids Jiu Jitsu (Gi)
+                  </span>
+                </li>
+                <li>
+                  <span className={styles.schedule_heading}>10:00 pm</span>
+                  <span className={styles.schedule_name}>
+                    Adults Jiu Jitsu (Gi)
+                  </span>
+                </li>
+                <li>
+                  <span className={styles.schedule_heading}>11:00 pm</span>
+                  <span className={styles.schedule_name}>
+                    Youth Competition Jiu Jitsu Training (invite only)
+                  </span>
+                </li>
+              </ul>
+            </section>
+            <section>
+              <div className={`${styles.title} ${styles.schedule_title}`}>
+                Sunday
+              </div>
+              <ul>
+                <li>
+                  <span className={styles.schedule_heading}>10:00 am</span>
+                  <span className={styles.schedule_name}>
+                  Sucka-Free Open Mat (everyone welcome, no mat fees)
+                  </span>
+                </li>
+              </ul>
+            </section>
           </section>
         </section>
-        <Footer/>
+        <Footer />
       </main>
     </div>
   );

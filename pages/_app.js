@@ -22,7 +22,7 @@ function MyApp({ Component, pageProps }) {
         />
         <meta
           name="keywords"
-          content="Brazilian Jiu Jitsu, Jiu Jitsu Near Me, Muay Thai, Striking, Brazilian Jiu Jitsu tournament, Brazilian Jiu Jitsu competition, tactical jiu jitsu, tactical self defense, concealed carry self defense, allied tactical, allied functional fitness, af2, allied yoga, free jiu jitsu for vets, free jiu jitsu for military, free jiu jitsu for cops, free jiu jitsu for police, adopt-a-cop, adopt a cop, free jiu jitsu for firefighters, free jiu jitsu for first responders, 85383, 85382"
+          content="Brazilian Jiu Jitsu, Jiu Jitsu Near Me, Muay Thai, Striking, Brazilian Jiu Jitsu tournament, Brazilian Jiu Jitsu competition, tactical jiu jitsu, tactical self defense, concealed carry self defense, allied tactical, allied functional fitness, af2, allied yoga, free jiu jitsu for vets, free jiu jitsu for military, free jiu jitsu for cops, free jiu jitsu for police, adopt-a-cop, adopt a cop, free jiu jitsu for firefighters, free jiu jitsu for first responders, 85383, 85382, jiu jitsu for women, jiu jitsu for girls, woman-only jiu jitsu"
         ></meta>
         <meta name="robots" content="index, follow" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />

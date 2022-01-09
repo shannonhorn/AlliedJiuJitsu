@@ -54,8 +54,11 @@
 
   /* static spacing */
   --padding-top-bottom: 4px;
+  --padding-top-bottom-double: 8px;
   --padding-section-top-bottom: 3rem;
-  --padding-sides: 20px;
+  --padding-sides: 16px;
+  --padding-sides-half: 8px;
+  --padding-sides-tiny: 2px;
   --padding-section-sides: 1rem;
 
   --spacing-base: 1.5rem;
@@ -223,7 +226,7 @@ p > a:visited {
 }
 
 ul {
-  margin-left:1.5rem;
+  margin-left: 1.5rem;
 }
 
 form {

@@ -14,7 +14,8 @@ import imageHomeTacticalJeff from "../public/images/homeTacticalJeff.jpg";
 import imageHomeTacticalVideo from "../public/images/homeTacticalVideo.jpg";
 import imageHomeCompeteKids from "../public/images/homeCompeteKids.jpg";
 import imageHomeCompeteWorlds from "../public/images/homeCompeteWorlds.jpg";
-import imageHomeCompeteOpen from "../public/images/homeCompeteOpen.jpg";
+import imageHomeWomen from "../public/images/homeJiuJitsuWomen.jpg";
+import imageHomeWomen2 from "../public/images/homeJiuJitsuWomen2.jpg";
 
 const Programs = () => {
   return (
@@ -91,6 +92,29 @@ const Programs = () => {
                 <a>the Adopt-a-Cop BJJ</a>
               </Link>{" "}
               program.
+            </p>
+            <Image
+              src={imageHomeWomen}
+              alt="Allied Jiu Jitsu classes exclusively for women."
+              objectFit="cover"
+              objectPosition="center top"
+              layout="intrinsic"
+              height="3375"
+              width="6000"
+            />
+            <Image
+              src={imageHomeWomen2}
+              alt="Allied Jiu Jitsu classes exclusively for women."
+              objectFit="cover"
+              objectPosition="center top"
+              layout="intrinsic"
+              height="3375"
+              width="6000"
+            />
+            <p>
+              Allied is adding classes exclusively for women. These classes will
+              focus on the same aspects of the jiu jitsu lifestyle:
+              self-defense, competition, and community.
             </p>
             <Image
               src={imageHomeCompeteWorlds}

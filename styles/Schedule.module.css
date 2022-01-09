@@ -71,15 +71,6 @@
   animation-delay: 0.6s;
 }
 
-.separator {
-  width: 90vw;
-  border-style: solid;
-  border-color: var(--color-gray);
-  border-width: var(--border-width-half);
-  margin: var(--spacing-base) 0;
-  animation-delay: 0.8s;
-}
-
 .headline_sub {
   font-size: var(--step--2);
   text-align: center;
@@ -94,12 +85,21 @@
 }
 
 .schedule_title {
+  font-family: var(--font-heading);
   font-size: var(--step--3);
   text-transform: uppercase;
+  letter-spacing: var(--spacing-letter-half);
+}
+
+.schedule_heading {
+  font-weight: 600;
+}
+
+.schedule_name {
+  margin-left: var(--spacing-half);
 }
 
 .schedule {
-  --flow-space: var(--step-0);
   padding: calc(1.5 * var(--padding-section-top-bottom))
     var(--padding-section-sides);
   display: flex;
@@ -109,9 +109,23 @@
 }
 
 .schedule_grid {
-  --flow-space: var(--step--2);
+  --flow-space: var(--step-3);
   align-self: flex-start;
   width: 100%;
+}
+
+.schedule_grid ul,
+.schedule_special_events {
+  list-style: none;
+  font-size: var(--step--3);
+  margin-left: var(--spacing-half);
+  padding-top: var(--padding-top-bottom-double);
+  padding-bottom: var(--padding-top-bottom-double);
+}
+
+.schedule_special_events > li {
+  padding-top: var(--padding-top-bottom-double);
+  padding-bottom: var(--padding-top-bottom-double);
 }
 
 .schedule_title_separator {
@@ -120,4 +134,38 @@
   border-bottom-width: var(--border-width-half);
   margin-bottom: 2rem;
   padding-bottom: 2rem;
+}
+
+.schedule_copy {
+  font-size: var(--step--3);
+  background-color: var(--background-color);
+  padding: 1rem;
+  border-style: solid;
+  border-width: var(--border-width);
+  border-color: var(--border-color);
+}
+
+.schedule_grid a,
+.schedule_grid a:hover,
+.schedule_grid a:focus,
+.schedule_grid a:active,
+.schedule_grid a:visited {
+  text-decoration: underline;
+  font-weight: 600;
+  color: var(--color);
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all 0.3s cubic-bezier(0.3, 0.1, 0.58, 1);
+}
+
+.schedule_grid a:hover {
+  color: hsl(180, 6.7%, 53.3%);
+}
+
+.schedule_grid a:visited {
+  color: hsl(180, 20.3%, 25.1%);
+}
+
+.super {
+  vertical-align: super;
 }
