@@ -7,6 +7,11 @@ import styles from "../styles/Instructors.module.css";
 import instructorThomas from "../public/images/instructorThomas.jpg";
 import instructorJeff from "../public/images/instructorJeff.jpg";
 import instructorLondon from "../public/images/instructorLondon.jpg";
+import instructorShadrack from "../public/images/instructorShadrack.jpg";
+import instructorDave from "../public/images/instructorDave.jpg";
+import instructorTim from "../public/images/instructorTim.jpg";
+import instructorTyler from "../public/images/instructorTyler.jpg";
+import instructorNinja from "../public/images/instructorNinja.jpg";
 
 const Instructors = () => {
   const [hamburgerMenuOpen, setHamburgerMenuOpen] = useState(false);
@@ -116,11 +121,97 @@ const Instructors = () => {
                 <li>Competitive power lifter</li>
               </ul>
             </article>
-            <article>Shadrack Miller</article>
-            <article>Dave Wilson</article>
-            <article>Tim Metcalf</article>
-            <article>Tyler Metcalf</article>
-            <article>Chris Malicdem</article>
+            <article>
+              <Image
+                src={instructorShadrack}
+                alt="Coach Shadrack Miller."
+                objectFit="cover"
+                objectPosition="center top"
+                layout="intrinsic"
+                height="3375"
+                width="6000"
+              />
+              <h4 className="headline_sub title">Shadrack Miller</h4>
+              <ul>
+                <li>Head coach Allied Cottonwood</li>
+                <li>Brazilian Jiu Jitsu purple belt</li>
+                <li>US Army Combatives Certified</li>
+                <li>CrossFit Level 1 Certified</li>
+                <li>CPR, first aid, AED certified</li>
+                <li>Enjoys functional fitness training</li>
+              </ul>
+            </article>
+            <article>
+              <Image
+                src={instructorDave}
+                alt="Coach Dave Wilson."
+                objectFit="cover"
+                objectPosition="center top"
+                layout="intrinsic"
+                height="3375"
+                width="6000"
+              />
+              <h4 className="headline_sub title">Dave Wilson</h4>
+              <ul>
+                <li>Brazilian Jiu Jitsu blue belt</li>
+                <li>Allied Functional Fitness coach</li>
+              </ul>
+            </article>
+            <article>
+              <Image
+                src={instructorTim}
+                alt="Coach Tim Metcalf."
+                objectFit="cover"
+                objectPosition="center top"
+                layout="intrinsic"
+                height="3375"
+                width="6000"
+              />
+              <h4 className="headline_sub title">Tim Metcalf</h4>
+              <ul>
+                <li>Brazilian Jiu Jitsu purple belt</li>
+                <li>Youth competition instructor</li>
+                <li>CPR, first aid, AED certified</li>
+                <li>Fingerprint clearance</li>
+              </ul>
+            </article>
+            <article>
+              <Image
+                src={instructorTyler}
+                alt="Coach Tyler Metcalf."
+                objectFit="cover"
+                objectPosition="center top"
+                layout="intrinsic"
+                height="3375"
+                width="6000"
+              />
+              <h4 className="headline_sub title">Tyler Metcalf</h4>
+              <ul>
+                <li>Brazilian Jiu Jitsu orange belt</li>
+                <li>Extremely active jiu jitsu competitor</li>
+                <li>Youth competition instructor</li>
+              </ul>
+            </article>
+            <article>
+              <Image
+                src={instructorNinja}
+                alt="Coach Chris Malicdem."
+                objectFit="cover"
+                objectPosition="center top"
+                layout="intrinsic"
+                height="3375"
+                width="6000"
+              />
+              <h4 className="headline_sub title">Chris Malicdem</h4>
+              <ul>
+                <li>
+                  Brazilian Jiu Jitsu black belt under{" "}
+                  <Link href="https://www.bjjheroes.com/bjj-fighters/john-crouch">
+                    <a>Professor John Crouch</a>
+                  </Link>
+                </li>
+              </ul>
+            </article>
             <article>Taylor Mohr</article>
             <article>Josh Dayberry</article>
             <article>Mike Grandinetti</article>

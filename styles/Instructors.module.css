@@ -141,3 +141,8 @@
 .instructors_grid a:visited {
   color: hsl(180, 20.3%, 25.1%);
 }
+
+.instructors_grid > article > img,
+.instructors_grid > article > div > div {
+  aspect-ratio: 16/9 !important;
+}
