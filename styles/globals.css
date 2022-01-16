@@ -225,6 +225,11 @@ p > a:visited {
   color: hsl(180, 20.3%, 25.1%);
 }
 
+figcaption {
+  font-size: var(--step--3);
+  font-family: var(--font-copy);
+}
+
 ul {
   margin-left: 1.5rem;
 }

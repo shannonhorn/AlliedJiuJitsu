@@ -4,11 +4,9 @@ import styles from "../styles/Programs.module.css";
 import imageHomeJiuJitsu from "../public/images/homeJiuJitsu.jpg";
 import imageHomeJiuJitsuKids from "../public/images/homeJiuJitsuKids.jpg";
 import imageHomeJiuJitsuVets from "../public/images/homeJiuJitsuVets.jpg";
-import imageHomeMuayThai from "../public/images/homeMuayThai.jpg";
 import imageHomeFunctionalFitness from "../public/images/homeFunctionalFitness.jpg";
 import imageHomeTactical from "../public/images/homeTactical.jpg";
 import imageHomeYoga from "../public/images/homeYoga.jpg";
-import imageHomeMuayThaiHunter from "../public/images/homeMuayThaiHunter.jpg";
 import imageHomeFunctionalFitnessRachel from "../public/images/homeFunctionalFitnessRachel.jpg";
 import imageHomeTacticalJeff from "../public/images/homeTacticalJeff.jpg";
 import imageHomeTacticalVideo from "../public/images/homeTacticalVideo.jpg";
@@ -150,39 +148,6 @@ const Programs = () => {
         </article>
         <article>
           <Image
-            src={imageHomeMuayThai}
-            alt="Allied Muay Thai program."
-            objectFit="cover"
-            objectPosition="center top"
-            layout="intrinsic"
-            height="3375"
-            width="6000"
-          />
-          <h4 className="headline_sub title">Muay Thai / Striking</h4>
-          <div className="flow">
-            <p>
-              Muay Thai (&quot;Thai boxing&quot;) is known as the &quot;art of
-              eight limbs&quot; as it incorporates strikes using hands, feet,
-              knees, and elbows. Muay Thai also utilizes clinching and sweeps
-              and is widely considered the most effective striking form.
-            </p>
-            <Image
-              src={imageHomeMuayThaiHunter}
-              alt="Allied Muay Thai punching."
-              objectFit="cover"
-              objectPosition="center top"
-              layout="intrinsic"
-              height="3375"
-              width="6000"
-            />
-            <p>
-              Join our striking classes (youth and adults) to round out your
-              self-defense training and add an intense workout to your regimen.
-            </p>
-          </div>
-        </article>
-        <article>
-          <Image
             src={imageHomeFunctionalFitness}
             alt="Allied Functional Fitness program."
             objectFit="cover"
@@ -282,6 +247,9 @@ const Programs = () => {
                 />
               </a>
             </Link>
+            <figcaption>
+              (Click the thumbnail above to view tactical promo)
+            </figcaption>
             <p>
               Attendees should wear casual street attire such as jeans, a
               t-shirt, and mat-friendly clothing (no exposed zippers, buttons,
@@ -291,7 +259,6 @@ const Programs = () => {
           </div>
         </article>
         <article>
-          {" "}
           <Image
             src={imageHomeYoga}
             alt="Allied Yoga program."

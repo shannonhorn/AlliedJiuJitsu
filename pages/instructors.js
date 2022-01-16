@@ -12,6 +12,9 @@ import instructorDave from "../public/images/instructorDave.jpg";
 import instructorTim from "../public/images/instructorTim.jpg";
 import instructorTyler from "../public/images/instructorTyler.jpg";
 import instructorNinja from "../public/images/instructorNinja.jpg";
+import instructorDayberry from "../public/images/instructorDayberry.jpg";
+import instructorOldMan from "../public/images/instructorOldMan.jpg";
+import instructorBeno from "../public/images/instructorBeno.jpg";
 
 const Instructors = () => {
   const [hamburgerMenuOpen, setHamburgerMenuOpen] = useState(false);
@@ -234,6 +237,22 @@ const Instructors = () => {
             </article>
             <article>
               <Image
+                src={instructorOldMan}
+                alt="Coach Mike Grandinetti."
+                objectFit="cover"
+                objectPosition="center top"
+                layout="intrinsic"
+                height="3375"
+                width="6000"
+              />
+              <h4 className="headline_sub title">Mike Grandinetti</h4>
+              <ul>
+                <li>Brazilian Jiu Jitsu brown belt</li>
+                <li>High school teacher extraordinaire :) </li>
+              </ul>
+            </article>
+            <article>
+              <Image
                 src={instructorTim}
                 alt="Coach Tim Metcalf."
                 objectFit="cover"
@@ -269,6 +288,37 @@ const Instructors = () => {
             </article>
             <article>
               <Image
+                src={instructorDayberry}
+                alt="Coach Josh Dayberry."
+                objectFit="cover"
+                objectPosition="center top"
+                layout="intrinsic"
+                height="3375"
+                width="6000"
+              />
+              <h4 className="headline_sub title">Josh Dayberry</h4>
+              <ul>
+                <li>Brazilian Jiu Jitsu brown belt</li>
+              </ul>
+            </article>
+            <article>
+              <Image
+                src={instructorBeno}
+                alt="Coach Josh Beno."
+                objectFit="cover"
+                objectPosition="center top"
+                layout="intrinsic"
+                height="3375"
+                width="6000"
+              />
+              <h4 className="headline_sub title">Josh Beno</h4>
+              <ul>
+                <li>Brazilian Jiu Jitsu purple belt</li>
+                <li>Yoga phenom</li>
+              </ul>
+            </article>
+            <article>
+              <Image
                 src={instructorNinja}
                 alt="Coach Chris Malicdem."
                 objectFit="cover"
@@ -287,10 +337,6 @@ const Instructors = () => {
                 </li>
               </ul>
             </article>
-            <article>Taylor Mohr</article>
-            <article>Josh Dayberry</article>
-            <article>Mike Grandinetti</article>
-            <article>Josh Beno</article>
           </section>
         </section>
         <Footer />
