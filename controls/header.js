@@ -7,42 +7,11 @@ const Header = ({ hamburgerMenuOpen, setHamburgerMenuOpen }) => {
   const [uiState, setUIState] = useState({});
   useEffect(() => {
     window.addEventListener("scroll", UpdateNavBar);
-    const smoothScroll = (destination, duration) => {
-      const target = document.querySelector(destination);
-      const targetPosition = target.getBoundingClientRect().top;
-      const startPosition = window.pageYOffset;
-      let startTime = null;
-
-      const animateScroll = (currentTime) => {
-        if (startTime === null) {
-          startTime = currentTime;
-        }
-        let timeElapsed = currentTime - startTime;
-        let runAnimation = easeInOutQuad(
-          timeElapsed,
-          startPosition,
-          targetPosition,
-          duration
-        );
-        window.scrollTo(0, runAnimation);
-        if (timeElapsed < duration) {
-          requestAnimationFrame(animateScroll);
-        }
-      };
-
-      let easeInOutQuad = (t, b, c, d) => {
-        t /= d / 2;
-        if (t < 1) return (c / 2) * t * t + b;
-        t--;
-        return (-c / 2) * (t * (t - 2) - 1) + b;
-      };
-
-      requestAnimationFrame(animateScroll);
+    return () => {
+      window.removeEventListener("scroll", UpdateNavBar);
+      setNavbarActive(false);
+      document.body.classList.remove("no_scroll");
     };
-    document
-      .querySelector(".scroll-to-top")
-      .addEventListener("click", () => smoothScroll("#top", 400));
-    return () => window.removeEventListener("scroll", UpdateNavBar);
   }, []);
   const UpdateNavBar = () => {
     window.scrollY >= 54 ? setNavbarActive(true) : setNavbarActive(false);
@@ -115,15 +84,6 @@ const Header = ({ hamburgerMenuOpen, setHamburgerMenuOpen }) => {
           }`}
         ></div>
       </nav>
-      <svg
-        viewBox="0 0 24 24"
-        className={`scroll-to-top ${styles.icon} ${styles.icon_arrow_up} ${
-          navbarActive ? styles.scroll_to_top_active : ""
-        }`}
-      >
-        <path d="M17.25 10.25L12 4.75L6.75 10.25"></path>
-        <path d="M12 19.25V5.75"></path>
-      </svg>
     </header>
   );
 };

@@ -183,6 +183,12 @@ const Schedule = () => {
                   </span>
                 </li>
                 <li>
+                  <span className={styles.schedule_heading}>10:00 am</span>
+                  <span className={styles.schedule_name}>
+                    Adults Jiu Jitsu (Gi)
+                  </span>
+                </li>
+                <li>
                   <span className={styles.schedule_heading}>4:30 pm</span>
                   <span className={styles.schedule_name}>
                     Kids Jiu Jitsu (No Gi - ages 3 - 5)
@@ -338,7 +344,8 @@ const Schedule = () => {
                 <li>
                   <span className={styles.schedule_heading}>6:00 am</span>
                   <span className={styles.schedule_name}>
-                    Allied Functional Fitness (Af<span className={styles.super}>2</span>)
+                    Allied Functional Fitness (Af
+                    <span className={styles.super}>2</span>)
                   </span>
                 </li>
                 <li>
@@ -369,7 +376,7 @@ const Schedule = () => {
                 <li>
                   <span className={styles.schedule_heading}>10:00 am</span>
                   <span className={styles.schedule_name}>
-                  Sucka-Free Open Mat (everyone welcome, no mat fees)
+                    Sucka-Free Open Mat (everyone welcome, no mat fees)
                   </span>
                 </li>
               </ul>
