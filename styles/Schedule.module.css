@@ -89,6 +89,7 @@
   font-size: var(--step--3);
   text-transform: uppercase;
   letter-spacing: var(--spacing-letter-half);
+  margin-top: var(--spacing-double);
 }
 
 .schedule_heading {
@@ -139,10 +140,11 @@
 .schedule_copy {
   font-size: var(--step--3);
   background-color: var(--background-color);
-  padding: 1rem;
+  padding: var(--padding-section-sides);
   border-style: solid;
   border-width: var(--border-width);
   border-color: var(--border-color);
+  margin-bottom: var(--spacing-base);
 }
 
 .schedule_grid a,

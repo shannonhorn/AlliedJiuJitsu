@@ -30,10 +30,10 @@ const Programs = () => {
       </svg>
       <h3 className="headline">PROGRAMS</h3>
       <section className={styles.programs_grid}>
-        <article>
+        <article className="flow">
           <Image
             src={imageHomeJiuJitsu}
-            alt="Allied Jiu Jitsu adult jiu jitsu program."
+            alt="Allied Jiu Jitsu program."
             objectFit="cover"
             objectPosition="center top"
             layout="intrinsic"
@@ -41,112 +41,110 @@ const Programs = () => {
             width="800"
           />
           <h4 className="headline_sub title">Brazilian Jiu Jitsu</h4>
-          <div className="flow">
-            <p>
-              Do you dream of competing at a high level? Do you need to master
-              practical, real-world self-defense so that you can apply it second
-              nature? Are you interested in having a great time?
-            </p>
-            <p>
-              Brazilian Jiu Jitsu will change your life. This is a bold
-              statement. You won&apos;t understand it until you join the jiu
-              jitsu community and embrace the lifestyle.
-            </p>
-            <Image
-              src={imageHomeJiuJitsuKids}
-              alt="Allied Jiu Jitsu kids jiu jitsu program."
-              objectFit="cover"
-              objectPosition="center top"
-              layout="intrinsic"
-              height="450"
-              width="800"
-            />
-            <p>
-              When you join, you will immediately learn techniques that you can
-              apply that day. You will bond with and create memories with
-              amazing people who share your journey, struggles, and victories.
-            </p>
-            <p>
-              We offer gi and no-gi classes for kids and adults!{" "}
-              <Link href="/contact">
-                <a>Contact us today</a>
-              </Link>{" "}
-              or drop by to check out a class FREE.
-            </p>
-            <Image
-              src={imageHomeJiuJitsuVets}
-              alt="Allied Jiu Jitsu vets and first responders jiu jitsu program."
-              objectFit="cover"
-              objectPosition="center top"
-              layout="intrinsic"
-              height="450"
-              width="800"
-            />
-            <p>
-              Allied offers free jiu jitsu classes for military vets, police,
-              firefighters, and first responders. These classes are every
-              Tuesday and Thursday at 6 am and we are a proud member of{" "}
-              <Link href="https://adoptacopbjj.org">
-                <a>the Adopt-a-Cop BJJ</a>
-              </Link>{" "}
-              program.
-            </p>
-            <Image
-              src={imageHomeWomen}
-              alt="Allied Jiu Jitsu classes exclusively for women."
-              objectFit="cover"
-              objectPosition="center top"
-              layout="intrinsic"
-              height="450"
-              width="800"
-            />
-            <Image
-              src={imageHomeWomen2}
-              alt="Allied Jiu Jitsu classes exclusively for women."
-              objectFit="cover"
-              objectPosition="center top"
-              layout="intrinsic"
-              height="450"
-              width="800"
-            />
-            <p>
-              Allied is adding classes exclusively for women. These classes will
-              focus on the same aspects of the jiu jitsu lifestyle:
-              self-defense, competition, and community.
-            </p>
-            <Image
-              src={imageHomeCompeteWorlds}
-              alt="Allied Jiu Jitsu competition team."
-              objectFit="cover"
-              objectPosition="center top"
-              layout="intrinsic"
-              height="450"
-              width="800"
-            />
-            <Image
-              src={imageHomeCompeteKids}
-              alt="Allied Jiu Jitsu kids competition team."
-              objectFit="cover"
-              objectPosition="center top"
-              layout="intrinsic"
-              height="450"
-              width="800"
-            />
-            <p>
-              Allied is proudly affiliated with{" "}
-              <Link href="http://www.aresbjj.com">
-                <a>Ares BJJ</a>
-              </Link>
-              , directly under{" "}
-              <Link href="https://aresbjjgoodyear.com/Instructors/Professor-Osvaldo-Queixinho-Moizinho">
-                <a>Professor Osvaldo Queixinho Moizinho (&quot;Q&quot;)</a>
-              </Link>
-              . We have a growing team of active competitors and strive to
-              represent our academy and team well at all levels of competition.
-            </p>
-          </div>
+          <p>
+            Do you dream of competing at a high level? Do you need to master
+            practical, real-world self-defense so that you can apply it second
+            nature? Are you interested in having a great time?
+          </p>
+          <p>
+            Brazilian Jiu Jitsu will change your life. This is a bold statement.
+            You won&apos;t understand it until you join the jiu jitsu community
+            and embrace the lifestyle.
+          </p>
+          <Image
+            src={imageHomeJiuJitsuKids}
+            alt="Allied Jiu Jitsu kids jiu jitsu program."
+            objectFit="cover"
+            objectPosition="center top"
+            layout="intrinsic"
+            height="450"
+            width="800"
+          />
+          <p>
+            When you join, you will immediately learn techniques that you can
+            apply that day. You will bond with and create memories with amazing
+            people who share your journey, struggles, and victories.
+          </p>
+          <p>
+            We offer gi and no-gi classes for kids and adults!{" "}
+            <Link href="/contact">
+              <a>Contact us today</a>
+            </Link>{" "}
+            or drop by to check out a class FREE.
+          </p>
+          <Image
+            src={imageHomeJiuJitsuVets}
+            alt="Allied Jiu Jitsu vets and first responders jiu jitsu program."
+            objectFit="cover"
+            objectPosition="center top"
+            layout="intrinsic"
+            height="450"
+            width="800"
+          />
+          <p>
+            Allied offers free jiu jitsu classes for military vets, police,
+            firefighters, and first responders. These classes are every Tuesday
+            and Thursday at 6 am and we are a proud member of{" "}
+            <Link href="https://adoptacopbjj.org">
+              <a>the Adopt-a-Cop BJJ</a>
+            </Link>{" "}
+            program.
+          </p>
+          <Image
+            src={imageHomeWomen}
+            alt="Allied Jiu Jitsu classes exclusively for women."
+            objectFit="cover"
+            objectPosition="center top"
+            layout="intrinsic"
+            height="450"
+            width="800"
+          />
+          <Image
+            src={imageHomeWomen2}
+            alt="Allied Jiu Jitsu classes exclusively for women."
+            objectFit="cover"
+            objectPosition="center top"
+            layout="intrinsic"
+            height="450"
+            width="800"
+          />
+          <p>
+            Allied is adding classes exclusively for women. These classes will
+            focus on the same aspects of the jiu jitsu lifestyle: self-defense,
+            competition, and community.
+          </p>
+          <Image
+            src={imageHomeCompeteWorlds}
+            alt="Allied Jiu Jitsu competition team."
+            objectFit="cover"
+            objectPosition="center top"
+            layout="intrinsic"
+            height="450"
+            width="800"
+          />
+          <Image
+            src={imageHomeCompeteKids}
+            alt="Allied Jiu Jitsu kids competition team."
+            objectFit="cover"
+            objectPosition="center top"
+            layout="intrinsic"
+            height="450"
+            width="800"
+          />
+          <p>
+            Allied is proudly affiliated with{" "}
+            <Link href="http://www.aresbjj.com">
+              <a>Ares BJJ</a>
+            </Link>
+            , directly under{" "}
+            <Link href="https://aresbjjgoodyear.com/Instructors/Professor-Osvaldo-Queixinho-Moizinho">
+              <a>Professor Osvaldo Queixinho Moizinho (&quot;Q&quot;)</a>
+            </Link>
+            . We have a growing team of active competitors and strive to
+            represent our academy and team well at all levels of competition.
+          </p>
         </article>
-        <article>
+        <article className="flow">
           <Image
             src={imageHomeFunctionalFitness}
             alt="Allied Functional Fitness program."
@@ -157,56 +155,53 @@ const Programs = () => {
             width="800"
           />
           <h4 className="headline_sub title">Allied Functional Fitness</h4>
-          <div className="flow">
-            <p>
-              ACE-certified coach Dave Wilson crafted a custom fitness regimen
-              that combines bodyweight movements and uses battle ropes,
-              kettlebells, sandbags, slam balls, and medicine balls. AF2
-              emphasizes stamina, core strength, and flexibility and supports
-              jiu jitsu and everyday body movements. Allied Functional Fitness
-              will
-            </p>
+          <p>
+            ACE-certified coach Dave Wilson crafted a custom fitness regimen
+            that combines bodyweight movements and uses battle ropes,
+            kettlebells, sandbags, slam balls, and medicine balls. AF2
+            emphasizes stamina, core strength, and flexibility and supports jiu
+            jitsu and everyday body movements. Allied Functional Fitness will
+          </p>
 
-            <ul>
-              <li>Get you in shape fast</li>
-              <li>Improve your agility and flexibility</li>
-              <li>Supplement your jiu jitsu game</li>
-            </ul>
+          <ul>
+            <li>Get you in shape fast</li>
+            <li>Improve your agility and flexibility</li>
+            <li>Supplement your jiu jitsu game</li>
+          </ul>
 
-            <Image
-              src={imageHomeFunctionalFitnessRachel}
-              alt="Allied Functional Fitness working out."
-              objectFit="cover"
-              objectPosition="center top"
-              layout="intrinsic"
-              height="450"
-              width="800"
-            />
-            <p>
-              Classes last approximately 45 minutes. Class size is limited. Be
-              sure to sign up when at the academy or send us a message online to
-              confirm your attendance.
-            </p>
-            <p className={styles.quotation}>
-              &quot;I think Allied fitness classes are a perfect compliment to
-              my jiu jitsu training. I&apos;ve noticed a considerable difference
-              in my stamina and how I feel during training. It&apos;s also been
-              beneficial in other areas of training outside of jiu jitsu.&quot;
-              <br />
-              &mdash;Kollin Haws
-            </p>
-            <p>
-              Do you want to be capable or comfortable? Step out of your comfort
-              zone and try an AF2 class. If you&apos;re ready to sweat and meet
-              your fitness goals,{" "}
-              <Link href="/contact">
-                <a>Contact us today</a>
-              </Link>
-              !
-            </p>
-          </div>
+          <Image
+            src={imageHomeFunctionalFitnessRachel}
+            alt="Allied Functional Fitness working out."
+            objectFit="cover"
+            objectPosition="center top"
+            layout="intrinsic"
+            height="450"
+            width="800"
+          />
+          <p>
+            Classes last approximately 45 minutes. Class size is limited. Be
+            sure to sign up when at the academy or send us a message online to
+            confirm your attendance.
+          </p>
+          <p className={styles.quotation}>
+            &quot;I think Allied fitness classes are a perfect compliment to my
+            jiu jitsu training. I&apos;ve noticed a considerable difference in
+            my stamina and how I feel during training. It&apos;s also been
+            beneficial in other areas of training outside of jiu jitsu.&quot;
+            <br />
+            &mdash;Kollin Haws
+          </p>
+          <p>
+            Do you want to be capable or comfortable? Step out of your comfort
+            zone and try an AF2 class. If you&apos;re ready to sweat and meet
+            your fitness goals,{" "}
+            <Link href="/contact">
+              <a>Contact us today</a>
+            </Link>
+            !
+          </p>
         </article>
-        <article>
+        <article className="flow">
           <Image
             src={imageHomeTactical}
             alt="Allied Tactical program."
@@ -217,48 +212,46 @@ const Programs = () => {
             width="800"
           />
           <h4 className="headline_sub title">Allied Tactical</h4>
-          <div className="flow">
-            <p>
-              Do you carry (or plan to carry) a concealed weapon? Allied coach,
-              Jeff Cook, will lead the seminar and share the knowledge he
-              acquired as a green beret. The course is approximately four hours
-              long and packed with several days worth of practical techniques
-              and live scenarios.
-            </p>
-            <Image
-              src={imageHomeTacticalJeff}
-              alt="Allied Tactical coach Jeff Cook."
-              objectFit="cover"
-              objectPosition="center top"
-              layout="intrinsic"
-              height="450"
-              width="800"
-            />
-            <Link href="https://youtu.be/oabEeiqDDbQ">
-              <a target="_blank">
-                <Image
-                  src={imageHomeTacticalVideo}
-                  alt="Allied Tactical promotional video."
-                  objectFit="cover"
-                  objectPosition="center top"
-                  layout="intrinsic"
-                  height="450"
-                  width="800"
-                />
-              </a>
-            </Link>
-            <figcaption>
-              (Click the thumbnail above to view tactical promo)
-            </figcaption>
-            <p>
-              Attendees should wear casual street attire such as jeans, a
-              t-shirt, and mat-friendly clothing (no exposed zippers, buttons,
-              or rivets). Shoes will NOT be worn during the course, and BE SURE
-              TO WEAR A BELT. A mouthguard is optional.
-            </p>
-          </div>
+          <p>
+            Do you carry (or plan to carry) a concealed weapon? Allied coach,
+            Jeff Cook, will lead the seminar and share the knowledge he acquired
+            as a green beret. The course is approximately four hours long and
+            packed with several days worth of practical techniques and live
+            scenarios.
+          </p>
+          <Image
+            src={imageHomeTacticalJeff}
+            alt="Allied Tactical coach Jeff Cook."
+            objectFit="cover"
+            objectPosition="center top"
+            layout="intrinsic"
+            height="450"
+            width="800"
+          />
+          <Link href="https://youtu.be/oabEeiqDDbQ">
+            <a target="_blank">
+              <Image
+                src={imageHomeTacticalVideo}
+                alt="Allied Tactical promotional video."
+                objectFit="cover"
+                objectPosition="center top"
+                layout="intrinsic"
+                height="450"
+                width="800"
+              />
+            </a>
+          </Link>
+          <figcaption>
+            (Click the thumbnail above to view tactical promo)
+          </figcaption>
+          <p>
+            Attendees should wear casual street attire such as jeans, a t-shirt,
+            and mat-friendly clothing (no exposed zippers, buttons, or rivets).
+            Shoes will NOT be worn during the course, and BE SURE TO WEAR A
+            BELT. A mouthguard is optional.
+          </p>
         </article>
-        <article>
+        <article className="flow">
           <Image
             src={imageHomeYoga}
             alt="Allied Yoga program."
@@ -269,15 +262,13 @@ const Programs = () => {
             width="800"
           />
           <h4 className="headline_sub title">Allied Yoga</h4>
-          <div className="flow">
-            <p>
-              We live and breathe jiu jitsu, but jiu jitsu techniques often
-              cause poor posture and skeletomuscular imbalances. Yoga is the
-              perfect complement to your jiu jitsu game. Yoga will improve your
-              flexibility, agility, help alleviate aches and pain, and bring on
-              good mental vibes.
-            </p>
-          </div>
+          <p>
+            We live and breathe jiu jitsu, but jiu jitsu techniques often cause
+            poor posture and skeletomuscular imbalances. Yoga is the perfect
+            complement to your jiu jitsu game. Yoga will improve your
+            flexibility, agility, help alleviate aches and pain, and bring on
+            good mental vibes.
+          </p>
         </article>
       </section>
     </section>
