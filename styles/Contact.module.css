@@ -1,0 +1,113 @@
+/* keyframes and animations */
+@keyframes fade_in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes pop_in {
+  0% {
+    opacity: 0;
+    transform: translateY(-4rem) scale(0.8);
+  }
+  100% {
+    opacity: 0.8;
+    transform: none;
+  }
+}
+
+.animatePopIn {
+  opacity: 0;
+  animation: pop_in 0.6s cubic-bezier(0, 0.9, 0.3, 1.2) forwards;
+}
+
+.marquee {
+  background-color: var(--background-color);
+  color: var(--color-light);
+  height: 100vh;
+  width: 100vw;
+  animation: fade_in 2s 0.5s cubic-bezier(0, 0.5, 0, 1) forwards;
+  background-image: url("../public/images/contactMarquee_mobile.webp");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: cover;
+  aspect-ratio: 9/16;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  opacity: 0;
+}
+
+@media (min-width: 48em) {
+  .marquee {
+    background-image: url("../public/images/contactMarquee_full.webp");
+    aspect-ratio: 16/9;
+  }
+}
+
+.marquee_copy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-top-bottom);
+  border-radius: var(--border-radius-card);
+}
+
+.headline {
+  font-family: var(--font-heading);
+  color: var(--color);
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: var(--step-0);
+  letter-spacing: var(--spacing-letter-base) !important;
+  margin: var(--spacing-base) calc(0.5 * var(--spacing-base));
+  margin-bottom: var(--step-0);
+  opacity: 0;
+  animation-delay: 0.6s;
+}
+
+.headline_sub {
+  font-family: var(--font-heading);
+  font-size: var(--step--2);
+  text-align: center;
+  margin: var(--spacing-quarter-half);
+  letter-spacing: var(--spacing-letter-half);
+  animation-delay: 0.8s;
+}
+
+.title {
+  font-weight: 600;
+  margin-bottom: var(--spacing-quarter-half);
+}
+
+.contact {
+  padding: calc(1.5 * var(--padding-section-top-bottom))
+    var(--padding-section-sides);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact_form {
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.form_input {
+  border-right-color: var(--border-color-input);
+  border-right-style: solid;
+  border-right-width: var(--border-width-double);
+  width: auto;
+  margin-bottom: 2rem;
+}
+
+.form_input:focus {
+  border-color: var(--color);
+}

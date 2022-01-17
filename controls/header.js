@@ -56,7 +56,11 @@ const Header = ({ hamburgerMenuOpen, setHamburgerMenuOpen }) => {
               <a>INSTRUCTORS</a>
             </Link>
           </li>
-          <li className={styles.nav_menu_item}>CONTACT</li>
+          <li className={styles.nav_menu_item}>
+            <Link href="/contact">
+              <a>CONTACT</a>
+            </Link>
+          </li>
         </ul>
       </div>
       <div

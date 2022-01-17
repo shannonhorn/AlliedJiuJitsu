@@ -134,8 +134,8 @@ const Instructors = () => {
                 objectFit="cover"
                 objectPosition="center top"
                 layout="intrinsic"
-                height="675"
-                width="1200"
+                height="450"
+                width="800"
               />
               <h4 className="headline_sub title">Thomas Reichenberger</h4>
               <ul>
@@ -158,8 +158,8 @@ const Instructors = () => {
                 objectFit="cover"
                 objectPosition="center top"
                 layout="intrinsic"
-                height="3375"
-                width="6000"
+                height="450"
+                width="800"
               />
               <h4 className="headline_sub title">Jeff Cook</h4>
               <ul>
@@ -183,8 +183,8 @@ const Instructors = () => {
                 objectFit="cover"
                 objectPosition="center top"
                 layout="intrinsic"
-                height="3375"
-                width="6000"
+                height="450"
+                width="800"
               />
               <h4 className="headline_sub title">London Horn</h4>
               <ul>
@@ -202,8 +202,8 @@ const Instructors = () => {
                 objectFit="cover"
                 objectPosition="center top"
                 layout="intrinsic"
-                height="3375"
-                width="6000"
+                height="450"
+                width="800"
               />
               <h4 className="headline_sub title">Shadrack Miller</h4>
               <ul>
@@ -222,8 +222,8 @@ const Instructors = () => {
                 objectFit="cover"
                 objectPosition="center top"
                 layout="intrinsic"
-                height="3375"
-                width="6000"
+                height="450"
+                width="800"
               />
               <h4 className="headline_sub title">Dave Wilson</h4>
               <ul>
@@ -242,8 +242,8 @@ const Instructors = () => {
                 objectFit="cover"
                 objectPosition="center top"
                 layout="intrinsic"
-                height="3375"
-                width="6000"
+                height="450"
+                width="800"
               />
               <h4 className="headline_sub title">Mike Grandinetti</h4>
               <ul>
@@ -258,8 +258,8 @@ const Instructors = () => {
                 objectFit="cover"
                 objectPosition="center top"
                 layout="intrinsic"
-                height="3375"
-                width="6000"
+                height="450"
+                width="800"
               />
               <h4 className="headline_sub title">Tim Metcalf</h4>
               <ul>
@@ -276,8 +276,8 @@ const Instructors = () => {
                 objectFit="cover"
                 objectPosition="center top"
                 layout="intrinsic"
-                height="3375"
-                width="6000"
+                height="450"
+                width="800"
               />
               <h4 className="headline_sub title">Tyler Metcalf</h4>
               <ul>
@@ -293,8 +293,8 @@ const Instructors = () => {
                 objectFit="cover"
                 objectPosition="center top"
                 layout="intrinsic"
-                height="3375"
-                width="6000"
+                height="450"
+                width="800"
               />
               <h4 className="headline_sub title">Josh Dayberry</h4>
               <ul>
@@ -308,8 +308,8 @@ const Instructors = () => {
                 objectFit="cover"
                 objectPosition="center top"
                 layout="intrinsic"
-                height="3375"
-                width="6000"
+                height="450"
+                width="800"
               />
               <h4 className="headline_sub title">Josh Beno</h4>
               <ul>
@@ -324,8 +324,8 @@ const Instructors = () => {
                 objectFit="cover"
                 objectPosition="center top"
                 layout="intrinsic"
-                height="3375"
-                width="6000"
+                height="450"
+                width="800"
               />
               <h4 className="headline_sub title">Chris Malicdem</h4>
               <ul>

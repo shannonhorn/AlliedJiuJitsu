@@ -37,8 +37,8 @@ const Programs = () => {
             objectFit="cover"
             objectPosition="center top"
             layout="intrinsic"
-            height="3375"
-            width="6000"
+            height="450"
+            width="800"
           />
           <h4 className="headline_sub title">Brazilian Jiu Jitsu</h4>
           <div className="flow">
@@ -58,8 +58,8 @@ const Programs = () => {
               objectFit="cover"
               objectPosition="center top"
               layout="intrinsic"
-              height="3375"
-              width="6000"
+              height="450"
+              width="800"
             />
             <p>
               When you join, you will immediately learn techniques that you can
@@ -79,8 +79,8 @@ const Programs = () => {
               objectFit="cover"
               objectPosition="center top"
               layout="intrinsic"
-              height="3375"
-              width="6000"
+              height="450"
+              width="800"
             />
             <p>
               Allied offers free jiu jitsu classes for military vets, police,
@@ -97,8 +97,8 @@ const Programs = () => {
               objectFit="cover"
               objectPosition="center top"
               layout="intrinsic"
-              height="3375"
-              width="6000"
+              height="450"
+              width="800"
             />
             <Image
               src={imageHomeWomen2}
@@ -106,8 +106,8 @@ const Programs = () => {
               objectFit="cover"
               objectPosition="center top"
               layout="intrinsic"
-              height="3375"
-              width="6000"
+              height="450"
+              width="800"
             />
             <p>
               Allied is adding classes exclusively for women. These classes will
@@ -120,8 +120,8 @@ const Programs = () => {
               objectFit="cover"
               objectPosition="center top"
               layout="intrinsic"
-              height="3375"
-              width="6000"
+              height="450"
+              width="800"
             />
             <Image
               src={imageHomeCompeteKids}
@@ -129,8 +129,8 @@ const Programs = () => {
               objectFit="cover"
               objectPosition="center top"
               layout="intrinsic"
-              height="3375"
-              width="6000"
+              height="450"
+              width="800"
             />
             <p>
               Allied is proudly affiliated with{" "}
@@ -153,8 +153,8 @@ const Programs = () => {
             objectFit="cover"
             objectPosition="center top"
             layout="intrinsic"
-            height="3375"
-            width="6000"
+            height="450"
+            width="800"
           />
           <h4 className="headline_sub title">Allied Functional Fitness</h4>
           <div className="flow">
@@ -179,8 +179,8 @@ const Programs = () => {
               objectFit="cover"
               objectPosition="center top"
               layout="intrinsic"
-              height="3375"
-              width="6000"
+              height="450"
+              width="800"
             />
             <p>
               Classes last approximately 45 minutes. Class size is limited. Be
@@ -213,8 +213,8 @@ const Programs = () => {
             objectFit="cover"
             objectPosition="center top"
             layout="intrinsic"
-            height="3375"
-            width="6000"
+            height="450"
+            width="800"
           />
           <h4 className="headline_sub title">Allied Tactical</h4>
           <div className="flow">
@@ -231,8 +231,8 @@ const Programs = () => {
               objectFit="cover"
               objectPosition="center top"
               layout="intrinsic"
-              height="3375"
-              width="6000"
+              height="450"
+              width="800"
             />
             <Link href="https://youtu.be/oabEeiqDDbQ">
               <a target="_blank">
@@ -242,8 +242,8 @@ const Programs = () => {
                   objectFit="cover"
                   objectPosition="center top"
                   layout="intrinsic"
-                  height="3375"
-                  width="6000"
+                  height="450"
+                  width="800"
                 />
               </a>
             </Link>
@@ -265,8 +265,8 @@ const Programs = () => {
             objectFit="cover"
             objectPosition="center top"
             layout="intrinsic"
-            height="3375"
-            width="6000"
+            height="450"
+            width="800"
           />
           <h4 className="headline_sub title">Allied Yoga</h4>
           <div className="flow">
