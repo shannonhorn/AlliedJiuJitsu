@@ -128,6 +128,7 @@ const Instructors = () => {
           <h3 className="headline">OUR TEAM</h3>
           <section className={`${styles.instructors_grid} flow`}>
             <article>
+              <a id="thomas"></a>
               <Image
                 src={instructorThomas}
                 alt="Professor Thomas Reichenberger."
@@ -152,6 +153,7 @@ const Instructors = () => {
               </ul>
             </article>
             <article>
+              <a id="jeff"></a>
               <Image
                 src={instructorJeff}
                 alt="Coach Jeff Cook."
@@ -177,6 +179,7 @@ const Instructors = () => {
               </ul>
             </article>
             <article>
+              <a id="london"></a>
               <Image
                 src={instructorLondon}
                 alt="Coach London Horn."
@@ -196,6 +199,7 @@ const Instructors = () => {
               </ul>
             </article>
             <article>
+              <a id="shad"></a>
               <Image
                 src={instructorShadrack}
                 alt="Coach Shadrack Miller."
@@ -216,6 +220,7 @@ const Instructors = () => {
               </ul>
             </article>
             <article>
+              <a id="dave"></a>
               <Image
                 src={instructorDave}
                 alt="Coach Dave Wilson."
@@ -236,6 +241,7 @@ const Instructors = () => {
               </ul>
             </article>
             <article>
+              <a id="mike"></a>
               <Image
                 src={instructorOldMan}
                 alt="Coach Mike Grandinetti."
@@ -252,6 +258,7 @@ const Instructors = () => {
               </ul>
             </article>
             <article>
+              <a id="tim"></a>
               <Image
                 src={instructorTim}
                 alt="Coach Tim Metcalf."
@@ -270,6 +277,7 @@ const Instructors = () => {
               </ul>
             </article>
             <article>
+              <a id="tyler"></a>
               <Image
                 src={instructorTyler}
                 alt="Coach Tyler Metcalf."
@@ -287,6 +295,7 @@ const Instructors = () => {
               </ul>
             </article>
             <article>
+              <a id="josh"></a>
               <Image
                 src={instructorDayberry}
                 alt="Coach Josh Dayberry."
@@ -302,6 +311,7 @@ const Instructors = () => {
               </ul>
             </article>
             <article>
+              <a id="beno"></a>
               <Image
                 src={instructorBeno}
                 alt="Coach Josh Beno."
@@ -318,6 +328,7 @@ const Instructors = () => {
               </ul>
             </article>
             <article>
+              <a id="ninja"></a>
               <Image
                 src={instructorNinja}
                 alt="Coach Chris Malicdem."

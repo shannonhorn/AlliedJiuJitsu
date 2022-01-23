@@ -60,14 +60,6 @@ const Schedule = () => {
               <ul className={styles.schedule_special_events}>
                 <li>
                   <div className={styles.schedule_heading}>
-                    January 23, 2022 @ 10 am
-                  </div>
-                  <div>Livio Ribeiro Seminar</div>
-                  <div>Allied Jiu Jitsu HQ</div>
-                  <div>$40 for Ares members, $50 for non-Ares members</div>
-                </li>
-                <li>
-                  <div className={styles.schedule_heading}>
                     February 12, 2022
                   </div>
                   <div>AZ International Open</div>
@@ -77,12 +69,28 @@ const Schedule = () => {
                 </li>
                 <li>
                   <div className={styles.schedule_heading}>
+                    February 19, 2022 @ 1 pm
+                  </div>
+                  <div>Paul Nava Seminar</div>
+                  <div>Allied Jiu Jitsu Cottonwood</div>
+                  <div>FREE for Ares members</div>
+                </li>
+                <li>
+                  <div className={styles.schedule_heading}>
                     February 26, 2022
                   </div>
                   <div>American Grappling Federation</div>
                   <Link href="https://americangrapplingfederation.com/tournaments/310?mc_cid=7c6ea5a99a&mc_eid=346309a88a">
                     <a target="_blank">Click here for details</a>
                   </Link>
+                </li>
+                <li>
+                  <div className={styles.schedule_heading}>
+                    March 5, 2022 @ 12 pm
+                  </div>
+                  <div>Ares Seminar</div>
+                  <div>Ares Arizona BJJ</div>
+                  <div>$40 (includes lunch)</div>
                 </li>
                 <li>
                   <div className={styles.schedule_heading}>March 12, 2022</div>

@@ -31,6 +31,7 @@ const Programs = () => {
       <h3 className="headline">PROGRAMS</h3>
       <section className={styles.programs_grid}>
         <article className="flow">
+          <a id="jiujitsu"></a>
           <Image
             src={imageHomeJiuJitsu}
             alt="Allied Jiu Jitsu program."
@@ -145,6 +146,7 @@ const Programs = () => {
           </p>
         </article>
         <article className="flow">
+          <a id="fitness"></a>
           <Image
             src={imageHomeFunctionalFitness}
             alt="Allied Functional Fitness program."
@@ -202,6 +204,7 @@ const Programs = () => {
           </p>
         </article>
         <article className="flow">
+          <a id="tactical"></a>
           <Image
             src={imageHomeTactical}
             alt="Allied Tactical program."
@@ -252,6 +255,7 @@ const Programs = () => {
           </p>
         </article>
         <article className="flow">
+          <a id="yoga"></a>
           <Image
             src={imageHomeYoga}
             alt="Allied Yoga program."
