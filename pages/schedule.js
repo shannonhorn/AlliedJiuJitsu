@@ -120,6 +120,13 @@ const Schedule = () => {
                     <a target="_blank">Click here for details</a>
                   </Link>
                 </li>
+                <li>
+                  <div className={styles.schedule_heading}>June 25, 2022</div>
+                  <div>AZ State Championship</div>
+                  <Link href="https://azbjjf.smoothcomp.com/en/event/6474">
+                    <a target="_blank">Click here for details</a>
+                  </Link>
+                </li>
               </ul>
               <div className={styles.schedule_title_separator}></div>
             </section>
@@ -341,19 +348,19 @@ const Schedule = () => {
                   </span>
                 </li>
                 <li>
-                  <span className={styles.schedule_heading}>9:00 pm</span>
+                  <span className={styles.schedule_heading}>9:00 am</span>
                   <span className={styles.schedule_name}>
                     Kids Jiu Jitsu (Gi)
                   </span>
                 </li>
                 <li>
-                  <span className={styles.schedule_heading}>10:00 pm</span>
+                  <span className={styles.schedule_heading}>10:00 am</span>
                   <span className={styles.schedule_name}>
                     Adults Jiu Jitsu (Gi)
                   </span>
                 </li>
                 <li>
-                  <span className={styles.schedule_heading}>11:00 pm</span>
+                  <span className={styles.schedule_heading}>11:00 am</span>
                   <span className={styles.schedule_name}>
                     Youth Competition Jiu Jitsu Training (invite only)
                   </span>

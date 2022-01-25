@@ -148,4 +148,5 @@
   letter-spacing: var(--spacing-letter-base);
   width: 100%;
   text-align: center;
+  cursor: pointer;
 }

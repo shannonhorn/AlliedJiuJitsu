@@ -13,7 +13,7 @@ import instructorTim from "../public/images/instructorTim.jpg";
 import instructorTyler from "../public/images/instructorTyler.jpg";
 import instructorNinja from "../public/images/instructorNinja.jpg";
 import instructorDayberry from "../public/images/instructorDayberry.jpg";
-import instructorOldMan from "../public/images/instructorOldMan.jpg";
+import instructorOldMan from "../public/images/instructorOldMan2.jpg";
 import instructorBeno from "../public/images/instructorBeno.jpg";
 
 const Instructors = () => {
