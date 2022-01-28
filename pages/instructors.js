@@ -235,9 +235,11 @@ const Instructors = () => {
                 <li>Brazilian Jiu Jitsu blue belt</li>
                 <li>Allied Functional Fitness coach</li>
                 <li>ACE certified physical fitness instructor</li>
-                <li>Retired Marine</li>
+                <li>Marine Veteran, Major</li>
                 <li>Retired Phoenix PD (SWAT sniper)</li>
                 <li>Weapons instructor</li>
+                <li>Fingerprint clearance</li>
+                <li>Licensed to teach in childcare facilities</li>
               </ul>
             </article>
             <article>
