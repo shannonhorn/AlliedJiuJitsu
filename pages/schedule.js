@@ -58,7 +58,7 @@ const Schedule = () => {
                 UPCOMING SPECIAL EVENTS
               </div>
               <ul className={styles.schedule_special_events}>
-                <li>
+                {/* <li>
                   <div className={styles.schedule_heading}>
                     February 12, 2022
                   </div>
@@ -66,20 +66,26 @@ const Schedule = () => {
                   <Link href="https://azbjjf.smoothcomp.com/en/event/6241">
                     <a target="_blank">Click here for details</a>
                   </Link>
-                </li>
+                </li> */}
                 <li>
                   <div className={styles.schedule_heading}>
                     February 19, 2022 @ 1 pm
                   </div>
                   <div>Paul Nava Seminar</div>
                   <div>Allied Jiu Jitsu Cottonwood</div>
-                  <div>FREE for Ares members</div>
+                  <Link href="https://cottonwoodbjj.com">
+                    <a target="_blank">Click here for details</a>
+                  </Link>
+                  <div>
+                    <strong>FREE for Ares members</strong>
+                  </div>
                 </li>
                 <li>
                   <div className={styles.schedule_heading}>
                     February 26, 2022
                   </div>
                   <div>American Grappling Federation</div>
+                  <div>Legacy Sports USA, Mesa, AZ</div>
                   <Link href="https://americangrapplingfederation.com/tournaments/310?mc_cid=7c6ea5a99a&mc_eid=346309a88a">
                     <a target="_blank">Click here for details</a>
                   </Link>
@@ -88,13 +94,17 @@ const Schedule = () => {
                   <div className={styles.schedule_heading}>
                     March 5, 2022 @ 12 pm
                   </div>
-                  <div>Ares Seminar</div>
+                  <div>Ares Super Seminar</div>
                   <div>Ares Arizona BJJ</div>
                   <div>$40 (includes lunch)</div>
+                  <Link href="https://aresazbjj.com">
+                    <a target="_blank">Click here for details</a>
+                  </Link>
                 </li>
                 <li>
                   <div className={styles.schedule_heading}>March 12, 2022</div>
                   <div>Jiu Jitsu World League</div>
+                  <div>Westworld, Scottsdale, AZ</div>
                   <Link href="https://www.jjworldleague.com/events/phx-2022-adults">
                     <a target="_blank">Click here for details</a>
                   </Link>
@@ -102,13 +112,25 @@ const Schedule = () => {
                 <li>
                   <div className={styles.schedule_heading}>April 3, 2022</div>
                   <div>Grappling Industries</div>
+                  <div>Victorium, Scottsdale, AZ</div>
                   <Link href="https://grapplingindustries.smoothcomp.com/en/event/5424">
+                    <a target="_blank">Click here for details</a>
+                  </Link>
+                </li>
+                <li>
+                  <div className={styles.schedule_heading}>
+                    April 5 - 10, 2022
+                  </div>
+                  <div>IBJJF Pan Championship</div>
+                  <div>Kissimmee, FL</div>
+                  <Link href="https://ibjjf.com/events/pan-ibjjf-jiu-jitsu-championship-2022">
                     <a target="_blank">Click here for details</a>
                   </Link>
                 </li>
                 <li>
                   <div className={styles.schedule_heading}>April 16, 2022</div>
                   <div>Copa Bela (female only)</div>
+                  <div>Bell Bank Park, Mesa, AZ</div>
                   <Link href="https://azbjjf.smoothcomp.com/en/event/6330">
                     <a target="_blank">Click here for details</a>
                   </Link>
@@ -116,6 +138,7 @@ const Schedule = () => {
                 <li>
                   <div className={styles.schedule_heading}>April 16, 2022</div>
                   <div>Kids Cup</div>
+                  <div>Bell Bank Park, Mesa, AZ</div>
                   <Link href="https://azbjjf.smoothcomp.com/en/event/6332">
                     <a target="_blank">Click here for details</a>
                   </Link>
@@ -123,7 +146,50 @@ const Schedule = () => {
                 <li>
                   <div className={styles.schedule_heading}>June 25, 2022</div>
                   <div>AZ State Championship</div>
+                  <div>Bell Bank Park, Mesa, AZ</div>
                   <Link href="https://azbjjf.smoothcomp.com/en/event/6474">
+                    <a target="_blank">Click here for details</a>
+                  </Link>
+                </li>
+                <li>
+                  <div className={styles.schedule_heading}>
+                    September 1 - 3, 2022
+                  </div>
+                  <div>IBJJF World Master Championship</div>
+                  <div>Las Vegas, NV</div>
+                  <Link href="https://ibjjf.com/events/world-master-ibjjf-jiu-jitsu-championship-2022">
+                    <a target="_blank">Click here for details</a>
+                  </Link>
+                </li>
+                <li>
+                  <div className={styles.schedule_heading}>
+                    September 1 - 2, 2022
+                  </div>
+                  <div>IBJJF Jiu Jitsu Con International Championship</div>
+                  <div>Las Vegas, NV</div>
+                  <Link href="https://ibjjf.com/events/jiu-jitsu-con-international-2022">
+                    <a target="_blank">Click here for details</a>
+                  </Link>
+                </li>
+                <li>
+                  <div className={styles.schedule_heading}>
+                    September 1 - 2, 2022
+                  </div>
+                  <div>
+                    IBJJF Jiu Jitsu Con NOVICE Championship (white belts)
+                  </div>
+                  <div>Las Vegas, NV</div>
+                  <Link href="https://ibjjf.com/events/jiu-jitsu-con-novice-international-2022">
+                    <a target="_blank">Click here for details</a>
+                  </Link>
+                </li>
+                <li>
+                  <div className={styles.schedule_heading}>
+                    September 3, 2022
+                  </div>
+                  <div>IBJJF Jiu Jitsu Con KIDS Championship (white belts)</div>
+                  <div>Las Vegas, NV</div>
+                  <Link href="https://ibjjf.com/events/jiu-jitsu-con-kids-international-2022">
                     <a target="_blank">Click here for details</a>
                   </Link>
                 </li>
