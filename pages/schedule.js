@@ -67,7 +67,7 @@ const Schedule = () => {
                     <a target="_blank">Click here for details</a>
                   </Link>
                 </li> */}
-                <li>
+                {/* <li>
                   <div className={styles.schedule_heading}>
                     February 19, 2022 @ 1 pm
                   </div>
@@ -79,7 +79,7 @@ const Schedule = () => {
                   <div>
                     <strong>FREE for Ares members</strong>
                   </div>
-                </li>
+                </li> */}
                 <li>
                   <div className={styles.schedule_heading}>
                     February 26, 2022
@@ -98,6 +98,20 @@ const Schedule = () => {
                   <div>Ares Arizona BJJ</div>
                   <div>$40 (includes lunch)</div>
                   <Link href="https://aresazbjj.com">
+                    <a target="_blank">Click here for details</a>
+                  </Link>
+                </li>
+                <li>
+                  <div className={styles.schedule_heading}>
+                    March 26, 2022 @ 4 pm
+                  </div>
+                  <div>Samurai Soul Championship</div>
+                  <div>Surprise, AZ</div>
+                  <div>
+                    Come out to support London competing at a new promotion
+                    owned by friends of Allied
+                  </div>
+                  <Link href="https://www.eventbrite.com/e/samurai-soul-championship-1-tickets-263411850937">
                     <a target="_blank">Click here for details</a>
                   </Link>
                 </li>
