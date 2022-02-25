@@ -80,7 +80,7 @@ const Schedule = () => {
                     <strong>FREE for Ares members</strong>
                   </div>
                 </li> */}
-                <li>
+                {/* <li>
                   <div className={styles.schedule_heading}>
                     February 26, 2022
                   </div>
@@ -89,7 +89,7 @@ const Schedule = () => {
                   <Link href="https://americangrapplingfederation.com/tournaments/310?mc_cid=7c6ea5a99a&mc_eid=346309a88a">
                     <a target="_blank">Click here for details</a>
                   </Link>
-                </li>
+                </li> */}
                 <li>
                   <div className={styles.schedule_heading}>
                     March 5, 2022 @ 12 pm
