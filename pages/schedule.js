@@ -102,6 +102,14 @@ const Schedule = () => {
                   </Link>
                 </li>
                 <li>
+                  <div className={styles.schedule_heading}>March 12, 2022</div>
+                  <div>Jiu Jitsu World League</div>
+                  <div>Westworld, Scottsdale, AZ</div>
+                  <Link href="https://www.jjworldleague.com/events/phx-2022-adults">
+                    <a target="_blank">Click here for details</a>
+                  </Link>
+                </li>
+                <li>
                   <div className={styles.schedule_heading}>
                     March 26, 2022 @ 4 pm
                   </div>
@@ -112,14 +120,6 @@ const Schedule = () => {
                     owned by friends of Allied
                   </div>
                   <Link href="https://www.eventbrite.com/e/samurai-soul-championship-1-tickets-263411850937">
-                    <a target="_blank">Click here for details</a>
-                  </Link>
-                </li>
-                <li>
-                  <div className={styles.schedule_heading}>March 12, 2022</div>
-                  <div>Jiu Jitsu World League</div>
-                  <div>Westworld, Scottsdale, AZ</div>
-                  <Link href="https://www.jjworldleague.com/events/phx-2022-adults">
                     <a target="_blank">Click here for details</a>
                   </Link>
                 </li>
@@ -158,10 +158,26 @@ const Schedule = () => {
                   </Link>
                 </li>
                 <li>
+                  <div className={styles.schedule_heading}>
+                    June 1 - 5, 2022
+                  </div>
+                  <div>IBJJF World Championship</div>
+                  <div>Long Beach, CA</div>
+                  <div>The event page has not been published yet.</div>
+                </li>
+                <li>
                   <div className={styles.schedule_heading}>June 25, 2022</div>
                   <div>AZ State Championship</div>
                   <div>Bell Bank Park, Mesa, AZ</div>
                   <Link href="https://azbjjf.smoothcomp.com/en/event/6474">
+                    <a target="_blank">Click here for details</a>
+                  </Link>
+                </li>
+                <li>
+                  <div className={styles.schedule_heading}>July 23, 2022</div>
+                  <div>IBJJF Kids Pan Championship</div>
+                  <div>Kissimmee, FL</div>
+                  <Link href="https://ibjjf.com/events/pan-kids-ibjjf-jiu-jitsu-championship-2022">
                     <a target="_blank">Click here for details</a>
                   </Link>
                 </li>
