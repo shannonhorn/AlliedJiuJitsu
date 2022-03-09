@@ -90,7 +90,7 @@ const Schedule = () => {
                     <a target="_blank">Click here for details</a>
                   </Link>
                 </li> */}
-                <li>
+                {/* <li>
                   <div className={styles.schedule_heading}>
                     March 5, 2022 @ 12 pm
                   </div>
@@ -100,7 +100,7 @@ const Schedule = () => {
                   <Link href="https://aresazbjj.com">
                     <a target="_blank">Click here for details</a>
                   </Link>
-                </li>
+                </li> */}
                 <li>
                   <div className={styles.schedule_heading}>March 12, 2022</div>
                   <div>Jiu Jitsu World League</div>
