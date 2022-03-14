@@ -101,14 +101,14 @@ const Schedule = () => {
                     <a target="_blank">Click here for details</a>
                   </Link>
                 </li> */}
-                <li>
+                {/* <li>
                   <div className={styles.schedule_heading}>March 12, 2022</div>
                   <div>Jiu Jitsu World League</div>
                   <div>Westworld, Scottsdale, AZ</div>
                   <Link href="https://www.jjworldleague.com/events/phx-2022-adults">
                     <a target="_blank">Click here for details</a>
                   </Link>
-                </li>
+                </li> */}
                 <li>
                   <div className={styles.schedule_heading}>
                     March 26, 2022 @ 4 pm
