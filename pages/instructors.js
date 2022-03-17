@@ -15,6 +15,7 @@ import instructorNinja from "../public/images/instructorNinja.jpg";
 import instructorDayberry from "../public/images/instructorDayberry.jpg";
 import instructorOldMan from "../public/images/instructorOldMan2.jpg";
 import instructorBeno from "../public/images/instructorBeno.jpg";
+import instructorLivio from "../public/images/instructorLivio.jpg";
 
 const Instructors = () => {
   const [hamburgerMenuOpen, setHamburgerMenuOpen] = useState(false);
@@ -176,6 +177,28 @@ const Instructors = () => {
                   beret)
                 </li>
                 <li>Lead Instructor of Allied Tactical seminars (Gun Jitsu)</li>
+              </ul>
+            </article>
+            <article>
+              <a id="livio"></a>
+              <Image
+                src={instructorLivio}
+                alt="Coach Livio Ribeiro."
+                objectFit="cover"
+                objectPosition="center top"
+                layout="intrinsic"
+                height="450"
+                width="800"
+              />
+              <h4 className="headline_sub title">Livio Ribeiro</h4>
+              <ul>
+                <li>
+                  First degree Brazilian Jiu Jitsu black belt under{" "}
+                  <Link href="https://aresbjjgoodyear.com/Instructors/Professor-Osvaldo-Queixinho-Moizinho">
+                    <a>Professor Osvaldo Queixinho Moizinho (&quot;Q&quot;)</a>
+                  </Link>
+                </li>
+                <li>Multiple time IBJJF World Champion</li>
               </ul>
             </article>
             <article>

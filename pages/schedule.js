@@ -111,6 +111,21 @@ const Schedule = () => {
                 </li> */}
                 <li>
                   <div className={styles.schedule_heading}>
+                    March 19, 2022 @ 5 pm
+                  </div>
+                  <div>Fight 2 Win</div>
+                  <div>Phoenix, AZ</div>
+                  <div>
+                    Come out to support London, Tyler, and other Ares members.
+                    When purchasing tickets, be sure to select London or Tyler
+                    as your athlete.
+                  </div>
+                  <Link href="http://www.f2wbjj.com/f2w-197-march-19th-phoenix/">
+                    <a target="_blank">Click here for details</a>
+                  </Link>
+                </li>
+                <li>
+                  <div className={styles.schedule_heading}>
                     March 26, 2022 @ 4 pm
                   </div>
                   <div>Samurai Soul Championship</div>
@@ -361,9 +376,10 @@ const Schedule = () => {
                   </span>
                 </li>
                 <li>
-                  <span className={styles.schedule_heading}>6:00 pm</span>
+                  <span className={styles.schedule_heading}>7:00 pm</span>
                   <span className={styles.schedule_name}>
-                    Adults Advanced Jiu Jitsu (Gi)
+                    Adults Advanced Jiu Jitsu (Gi with Livio Ribeiro, blue belt
+                    and up, $20 drop in fee for non-Allied members)
                   </span>
                 </li>
               </ul>
