@@ -11,7 +11,7 @@ import imageHomeFunctionalFitnessRachel from "../public/images/homeFunctionalFit
 import imageHomeTacticalJeff from "../public/images/homeTacticalJeff.jpg";
 import imageHomeTacticalVideo from "../public/images/homeTacticalVideo.jpg";
 import imageHomeCompeteKids from "../public/images/homeCompeteKids.jpg";
-import imageHomeCompeteWorlds from "../public/images/homeCompeteWorlds.jpg";
+import imageHomeCompeteMedals from "../public/images/homeCompeteMedals.jpg";
 import imageHomeWomen from "../public/images/homeJiuJitsuWomen.jpg";
 import imageHomeWomen2 from "../public/images/homeJiuJitsuWomen2.jpg";
 
@@ -115,7 +115,7 @@ const Programs = () => {
             competition, and community.
           </p>
           <Image
-            src={imageHomeCompeteWorlds}
+            src={imageHomeCompeteMedals}
             alt="Allied Jiu Jitsu competition team."
             objectFit="cover"
             objectPosition="center top"
