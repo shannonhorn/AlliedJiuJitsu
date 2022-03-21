@@ -109,7 +109,7 @@ const Schedule = () => {
                     <a target="_blank">Click here for details</a>
                   </Link>
                 </li> */}
-                <li>
+                {/* <li>
                   <div className={styles.schedule_heading}>
                     March 19, 2022 @ 5 pm
                   </div>
@@ -123,7 +123,7 @@ const Schedule = () => {
                   <Link href="http://www.f2wbjj.com/f2w-197-march-19th-phoenix/">
                     <a target="_blank">Click here for details</a>
                   </Link>
-                </li>
+                </li> */}
                 <li>
                   <div className={styles.schedule_heading}>
                     March 26, 2022 @ 4 pm
