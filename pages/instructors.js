@@ -314,7 +314,7 @@ const Instructors = () => {
               />
               <h4 className="headline_sub title">Tyler Metcalf</h4>
               <ul>
-                <li>Brazilian Jiu Jitsu orange belt</li>
+                <li>Brazilian Jiu Jitsu green belt</li>
                 <li>Extremely active jiu jitsu competitor</li>
                 <li>Youth competition instructor</li>
               </ul>
