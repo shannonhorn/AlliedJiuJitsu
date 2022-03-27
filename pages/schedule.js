@@ -124,7 +124,7 @@ const Schedule = () => {
                     <a target="_blank">Click here for details</a>
                   </Link>
                 </li> */}
-                <li>
+                {/* <li>
                   <div className={styles.schedule_heading}>
                     March 26, 2022 @ 4 pm
                   </div>
@@ -145,7 +145,7 @@ const Schedule = () => {
                   <Link href="https://grapplingindustries.smoothcomp.com/en/event/5424">
                     <a target="_blank">Click here for details</a>
                   </Link>
-                </li>
+                </li> */}
                 <li>
                   <div className={styles.schedule_heading}>
                     April 5 - 10, 2022
