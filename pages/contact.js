@@ -55,6 +55,7 @@ const Contact = () => {
               placeholder="KARATE JOE*"
               required="required"
               title="Provide your name."
+              disabled={state.succeeded}
             />
             <ValidationError prefix="Name" field="name" errors={state.errors} />
             <label htmlFor="email">Email Address</label>
@@ -67,6 +68,7 @@ const Contact = () => {
               required="required"
               title="Provide a valid email address."
               pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*(\.\w{2,})+$"
+              disabled={state.succeeded}
             />
             <ValidationError
               prefix="Email"
@@ -81,6 +83,7 @@ const Contact = () => {
               name="phone"
               placeholder="(623) 123-4567*"
               title="Provide a valid phone number."
+              disabled={state.succeeded}
             />
             <ValidationError
               prefix="Phone"
@@ -94,13 +97,17 @@ const Contact = () => {
               id="message"
               rows="8"
               placeholder="Please sign me up right away!"
+              disabled={state.succeeded}
             ></textarea>
             <ValidationError
               prefix="Message"
               field="message"
               errors={state.errors}
             />
-            <button type="submit" disabled={state.submitting}>
+            <button
+              type="submit"
+              disabled={state.submitting || state.succeeded}
+            >
               Submit
             </button>
             <div
