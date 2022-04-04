@@ -146,7 +146,7 @@ const Schedule = () => {
                     <a target="_blank">Click here for details</a>
                   </Link>
                 </li> */}
-                <li>
+                {/* <li>
                   <div className={styles.schedule_heading}>
                     April 5 - 10, 2022
                   </div>
@@ -155,7 +155,7 @@ const Schedule = () => {
                   <Link href="https://ibjjf.com/events/pan-ibjjf-jiu-jitsu-championship-2022">
                     <a target="_blank">Click here for details</a>
                   </Link>
-                </li>
+                </li> */}
                 <li>
                   <div className={styles.schedule_heading}>April 16, 2022</div>
                   <div>Copa Bela (female only)</div>
@@ -178,7 +178,19 @@ const Schedule = () => {
                   </div>
                   <div>IBJJF World Championship</div>
                   <div>Long Beach, CA</div>
-                  <div>The event page has not been published yet.</div>
+                  <div>
+                    https://ibjjf.com/events/world-ibjjf-jiu-jitsu-championship-2022
+                  </div>
+                </li>
+                <li>
+                  <div className={styles.schedule_heading}>
+                    June 1 - 2, 2022
+                  </div>
+                  <div>IBJJF International Masters North America</div>
+                  <div>Long Beach, CA</div>
+                  <div>
+                    https://ibjjf.com/events/master-international-jiu-jitsu-championship-north-america-2022
+                  </div>
                 </li>
                 <li>
                   <div className={styles.schedule_heading}>June 25, 2022</div>
