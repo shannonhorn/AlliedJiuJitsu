@@ -300,6 +300,10 @@ const Schedule = () => {
                     Adult Competition Jiu Jitsu Training (Gi)
                   </span>
                 </li>
+                <li>
+                  <span className={styles.schedule_heading}>7:00 pm</span>
+                  <span className={styles.schedule_name}>Yoga</span>
+                </li>
               </ul>
             </section>
             <section>
@@ -413,6 +417,10 @@ const Schedule = () => {
                   <span className={styles.schedule_name}>
                     Kids Jiu Jitsu (Gi, homeschool students)
                   </span>
+                </li>
+                <li>
+                  <span className={styles.schedule_heading}>9:00 am</span>
+                  <span className={styles.schedule_name}>Yoga</span>
                 </li>
                 <li>
                   <span className={styles.schedule_heading}>10:00 am</span>
