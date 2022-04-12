@@ -193,6 +193,14 @@ const Schedule = () => {
                   </div>
                 </li>
                 <li>
+                  <div className={styles.schedule_heading}>
+                    June 17 - 19, 2022
+                  </div>
+                  <div>Allied Camp</div>
+                  <div>Cottonwood, AZ</div>
+                  <div>more information soon...</div>
+                </li>
+                <li>
                   <div className={styles.schedule_heading}>June 25, 2022</div>
                   <div>AZ State Championship</div>
                   <div>Bell Bank Park, Mesa, AZ</div>
