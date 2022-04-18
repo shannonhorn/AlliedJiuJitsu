@@ -156,7 +156,7 @@ const Schedule = () => {
                     <a target="_blank">Click here for details</a>
                   </Link>
                 </li> */}
-                <li>
+                {/* <li>
                   <div className={styles.schedule_heading}>April 16, 2022</div>
                   <div>Copa Bela (female only)</div>
                   <div>Bell Bank Park, Mesa, AZ</div>
@@ -171,7 +171,7 @@ const Schedule = () => {
                   <Link href="https://azbjjf.smoothcomp.com/en/event/6332">
                     <a target="_blank">Click here for details</a>
                   </Link>
-                </li>
+                </li> */}
                 <li>
                   <div className={styles.schedule_heading}>
                     June 1 - 5, 2022
@@ -207,6 +207,14 @@ const Schedule = () => {
                   <Link href="https://azbjjf.smoothcomp.com/en/event/6474">
                     <a target="_blank">Click here for details</a>
                   </Link>
+                </li>
+                <li>
+                  <div className={styles.schedule_heading}>July 9, 2022</div>
+                  <div>Grappling Industries</div>
+                  <div>Victorium, Scottsdale, AZ</div>
+                  <div>
+                    https://grapplingindustries.smoothcomp.com/en/event/5592
+                  </div>
                 </li>
                 <li>
                   <div className={styles.schedule_heading}>July 23, 2022</div>
@@ -257,6 +265,14 @@ const Schedule = () => {
                   <Link href="https://ibjjf.com/events/jiu-jitsu-con-kids-international-2022">
                     <a target="_blank">Click here for details</a>
                   </Link>
+                </li>
+                <li>
+                  <div className={styles.schedule_heading}>October 2, 2022</div>
+                  <div>Grappling Industries</div>
+                  <div>Victorium, Scottsdale, AZ</div>
+                  <div>
+                    https://grapplingindustries.smoothcomp.com/en/event/6280
+                  </div>
                 </li>
               </ul>
               <div className={styles.schedule_title_separator}></div>
