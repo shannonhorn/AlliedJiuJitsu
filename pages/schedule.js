@@ -225,6 +225,22 @@ const Schedule = () => {
                   </Link>
                 </li>
                 <li>
+                  <div className={styles.schedule_heading}>August 13, 2022</div>
+                  <div>Arizona State Novice Cup (White belt only)</div>
+                  <div>Mesa, AZ</div>
+                  <Link href="https://azbjjf.smoothcomp.com/en/event/7099">
+                    <a target="_blank">Click here for details</a>
+                  </Link>
+                </li>
+                <li>
+                  <div className={styles.schedule_heading}>August 13, 2022</div>
+                  <div>Arizona State No Gi Championship</div>
+                  <div>Mesa, AZ</div>
+                  <Link href="https://azbjjf.smoothcomp.com/en/event/7233">
+                    <a target="_blank">Click here for details</a>
+                  </Link>
+                </li>
+                <li>
                   <div className={styles.schedule_heading}>
                     September 1 - 3, 2022
                   </div>
