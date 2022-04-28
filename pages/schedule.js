@@ -209,6 +209,22 @@ const Schedule = () => {
                   </Link>
                 </li>
                 <li>
+                  <div className={styles.schedule_heading}>June 30 - July 2, 2022</div>
+                  <div>American Nationals</div>
+                  <div>Las Vegas, NV</div>
+                  <div>
+                  https://ibjjf.com/events/american-national-ibjjf-jiu-jitsu-championship-2022
+                  </div>
+                </li>
+                <li>
+                  <div className={styles.schedule_heading}>July 2, 2022</div>
+                  <div>American Nationals Kids</div>
+                  <div>Las Vegas, NV</div>
+                  <div>
+                  https://ibjjf.com/events/american-national-kids-ibjjf-jiu-jitsu-championship-2022
+                  </div>
+                </li>
+                <li>
                   <div className={styles.schedule_heading}>July 9, 2022</div>
                   <div>Grappling Industries</div>
                   <div>Victorium, Scottsdale, AZ</div>
