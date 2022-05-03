@@ -209,11 +209,13 @@ const Schedule = () => {
                   </Link>
                 </li>
                 <li>
-                  <div className={styles.schedule_heading}>June 30 - July 2, 2022</div>
+                  <div className={styles.schedule_heading}>
+                    June 30 - July 2, 2022
+                  </div>
                   <div>American Nationals</div>
                   <div>Las Vegas, NV</div>
                   <div>
-                  https://ibjjf.com/events/american-national-ibjjf-jiu-jitsu-championship-2022
+                    https://ibjjf.com/events/american-national-ibjjf-jiu-jitsu-championship-2022
                   </div>
                 </li>
                 <li>
@@ -221,7 +223,7 @@ const Schedule = () => {
                   <div>American Nationals Kids</div>
                   <div>Las Vegas, NV</div>
                   <div>
-                  https://ibjjf.com/events/american-national-kids-ibjjf-jiu-jitsu-championship-2022
+                    https://ibjjf.com/events/american-national-kids-ibjjf-jiu-jitsu-championship-2022
                   </div>
                 </li>
                 <li>
@@ -497,6 +499,12 @@ const Schedule = () => {
                   </span>
                 </li>
                 <li>
+                  <span className={styles.schedule_heading}>5:00 pm</span>
+                  <span className={styles.schedule_name}>
+                    Teen Jiu Jitsu (No Gi)
+                  </span>
+                </li>
+                <li>
                   <span className={styles.schedule_heading}>6:00 pm</span>
                   <span className={styles.schedule_name}>
                     Adults Jiu Jitsu (No Gi)
@@ -513,6 +521,12 @@ const Schedule = () => {
                   <span className={styles.schedule_heading}>9:00 am</span>
                   <span className={styles.schedule_name}>
                     Adults Jiu Jitsu (Gi)
+                  </span>
+                </li>
+                <li>
+                  <span className={styles.schedule_heading}>5:00 pm</span>
+                  <span className={styles.schedule_name}>
+                    Women-Only Jiu Jitsu (Gi)
                   </span>
                 </li>
                 <li>
