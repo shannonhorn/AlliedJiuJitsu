@@ -9,10 +9,6 @@ function MyApp({ Component, pageProps }) {
         <title>
           {Component.title ?? 'Allied Jiu Jitsu in Peoria and Cottonwood AZ'}
         </title>
-        <Script
-          data-domain='alliedjiujitsu.com'
-          src='https://plausible.io/js/plausible.js'
-        />
         <meta
           name='description'
           content={
@@ -29,6 +25,10 @@ function MyApp({ Component, pageProps }) {
         <meta charSet='UTF-8' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
+      <Script
+        data-domain='alliedjiujitsu.com'
+        src='https://plausible.io/js/plausible.js'
+      />
       <Component {...pageProps} />
     </>
   );
