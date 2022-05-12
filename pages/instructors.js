@@ -1,33 +1,33 @@
-import React, { useState } from "react";
-import Link from "next/link";
-import Image from "next/image";
-import Header from "../controls/header";
-import Footer from "../controls/footer";
-import styles from "../styles/Instructors.module.css";
-import instructorThomas from "../public/images/instructorThomas.jpg";
-import instructorJeff from "../public/images/instructorJeff.jpg";
-import instructorLondon from "../public/images/instructorLondon.jpg";
-import instructorShadrack from "../public/images/instructorShadrack.jpg";
-import instructorDave from "../public/images/instructorDave.jpg";
-import instructorTim from "../public/images/instructorTim.jpg";
-import instructorTyler from "../public/images/instructorTyler.jpg";
-import instructorNinja from "../public/images/instructorNinja.jpg";
-import instructorDayberry from "../public/images/instructorDayberry.jpg";
-import instructorOldMan from "../public/images/instructorOldMan2.jpg";
-import instructorBeno from "../public/images/instructorBeno.jpg";
-import instructorLivio from "../public/images/instructorLivio.jpg";
+import React, { useState } from 'react';
+import Link from 'next/link';
+import Image from 'next/image';
+import Header from '../controls/header';
+import Footer from '../controls/footer';
+import styles from '../styles/Instructors.module.css';
+import instructorThomas from '../public/images/instructorThomas.jpg';
+import instructorJeff from '../public/images/instructorJeff.jpg';
+import instructorLondon from '../public/images/instructorLondon.jpg';
+import instructorShadrack from '../public/images/instructorShadrack.jpg';
+import instructorDave from '../public/images/instructorDave.jpg';
+import instructorTim from '../public/images/instructorTim.jpg';
+import instructorTyler from '../public/images/instructorTyler.jpg';
+import instructorNinja from '../public/images/instructorNinja.jpg';
+import instructorDayberry from '../public/images/instructorDayberry.jpg';
+import instructorOldMan from '../public/images/instructorOldMan2.jpg';
+import instructorBeno from '../public/images/instructorBeno.jpg';
+import instructorLivio from '../public/images/instructorLivio2.jpg';
 
 const Instructors = () => {
   const [hamburgerMenuOpen, setHamburgerMenuOpen] = useState(false);
   return (
     <div className={styles.container}>
-      <a id="top"></a>
+      <a id='top'></a>
       <main className={styles.main}>
         <Header
           hamburgerMenuOpen={hamburgerMenuOpen}
           setHamburgerMenuOpen={setHamburgerMenuOpen}
         />
-        <section aria-label="marquee" className={styles.marquee}>
+        <section aria-label='marquee' className={styles.marquee}>
           <div className={styles.marquee_copy}>
             <h2
               className={`${styles.title} ${styles.headline} ${styles.animatePopIn}`}
@@ -42,108 +42,108 @@ const Instructors = () => {
           </div>
         </section>
         <section
-          aria-label="instructors"
+          aria-label='instructors'
           className={`${styles.instructors} ${styles.animatePopIn} flow`}
         >
           <svg
-            className="icon"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
+            className='icon'
+            viewBox='0 0 24 24'
+            xmlns='http://www.w3.org/2000/svg'
           >
             <circle
-              cx="7"
-              cy="14"
-              r="1.25"
-              stroke="currentColor"
-              strokeWidth="1.5"
-              strokeLinecap="round"
-              strokeLinejoin="round"
+              cx='7'
+              cy='14'
+              r='1.25'
+              stroke='currentColor'
+              strokeWidth='1.5'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             ></circle>
             <circle
-              cx="12"
-              cy="14"
-              r="1.25"
-              stroke="currentColor"
-              strokeWidth="1.5"
-              strokeLinecap="round"
-              strokeLinejoin="round"
+              cx='12'
+              cy='14'
+              r='1.25'
+              stroke='currentColor'
+              strokeWidth='1.5'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             ></circle>
             <circle
-              cx="9"
-              cy="10"
-              r="1.25"
-              stroke="currentColor"
-              strokeWidth="1.5"
-              strokeLinecap="round"
-              strokeLinejoin="round"
+              cx='9'
+              cy='10'
+              r='1.25'
+              stroke='currentColor'
+              strokeWidth='1.5'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             ></circle>
             <circle
-              cx="15"
-              cy="10"
-              r="1.25"
-              stroke="currentColor"
-              strokeWidth="1.5"
-              strokeLinecap="round"
-              strokeLinejoin="round"
+              cx='15'
+              cy='10'
+              r='1.25'
+              stroke='currentColor'
+              strokeWidth='1.5'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             ></circle>
             <circle
-              cx="12"
-              cy="6"
-              r="1.25"
-              stroke="currentColor"
-              strokeWidth="1.5"
-              strokeLinecap="round"
-              strokeLinejoin="round"
+              cx='12'
+              cy='6'
+              r='1.25'
+              stroke='currentColor'
+              strokeWidth='1.5'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             ></circle>
             <circle
-              cx="17"
-              cy="14"
-              r="1.25"
-              stroke="currentColor"
-              strokeWidth="1.5"
-              strokeLinecap="round"
-              strokeLinejoin="round"
+              cx='17'
+              cy='14'
+              r='1.25'
+              stroke='currentColor'
+              strokeWidth='1.5'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             ></circle>
             <path
-              d="M9.5 19.25C9.5 19.25 9.25001 16.75 7 16.75C4.74999 16.75 4.75 19.25 4.75 19.25"
-              stroke="currentColor"
-              strokeWidth="1.5"
-              strokeLinecap="round"
-              strokeLinejoin="round"
+              d='M9.5 19.25C9.5 19.25 9.25001 16.75 7 16.75C4.74999 16.75 4.75 19.25 4.75 19.25'
+              stroke='currentColor'
+              strokeWidth='1.5'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             ></path>
             <path
-              d="M14.5 19.25C14.5 19.25 14.25 16.75 12 16.75C9.74999 16.75 9.5 19.25 9.5 19.25"
-              stroke="currentColor"
-              strokeWidth="1.5"
-              strokeLinecap="round"
-              strokeLinejoin="round"
+              d='M14.5 19.25C14.5 19.25 14.25 16.75 12 16.75C9.74999 16.75 9.5 19.25 9.5 19.25'
+              stroke='currentColor'
+              strokeWidth='1.5'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             ></path>
             <path
-              d="M19.25 19.25C19.25 19.25 19.25 16.75 17 16.75C14.75 16.75 14.5 19.25 14.5 19.25"
-              stroke="currentColor"
-              strokeWidth="1.5"
-              strokeLinecap="round"
-              strokeLinejoin="round"
+              d='M19.25 19.25C19.25 19.25 19.25 16.75 17 16.75C14.75 16.75 14.5 19.25 14.5 19.25'
+              stroke='currentColor'
+              strokeWidth='1.5'
+              strokeLinecap='round'
+              strokeLinejoin='round'
             ></path>
           </svg>
-          <h3 className="headline">OUR TEAM</h3>
+          <h3 className='headline'>OUR TEAM</h3>
           <section className={`${styles.instructors_grid} flow`}>
             <article>
-              <a id="thomas"></a>
+              <a id='thomas'></a>
               <Image
                 src={instructorThomas}
-                alt="Professor Thomas Reichenberger."
-                objectFit="cover"
-                objectPosition="center top"
-                layout="intrinsic"
-                height="450"
-                width="800"
+                alt='Professor Thomas Reichenberger.'
+                objectFit='cover'
+                objectPosition='center top'
+                layout='intrinsic'
+                height='450'
+                width='800'
               />
-              <h4 className="headline_sub title">Thomas Reichenberger</h4>
+              <h4 className='headline_sub title'>Thomas Reichenberger</h4>
               <ul>
                 <li>
-                  First degree Brazilian Jiu Jitsu black belt under{" "}
-                  <Link href="https://aresbjjgoodyear.com/Instructors/Professor-Osvaldo-Queixinho-Moizinho">
+                  First degree Brazilian Jiu Jitsu black belt under{' '}
+                  <Link href='https://aresbjjgoodyear.com/Instructors/Professor-Osvaldo-Queixinho-Moizinho'>
                     <a>Professor Osvaldo Queixinho Moizinho (&quot;Q&quot;)</a>
                   </Link>
                 </li>
@@ -154,21 +154,21 @@ const Instructors = () => {
               </ul>
             </article>
             <article>
-              <a id="jeff"></a>
+              <a id='jeff'></a>
               <Image
                 src={instructorJeff}
-                alt="Coach Jeff Cook."
-                objectFit="cover"
-                objectPosition="center top"
-                layout="intrinsic"
-                height="450"
-                width="800"
+                alt='Coach Jeff Cook.'
+                objectFit='cover'
+                objectPosition='center top'
+                layout='intrinsic'
+                height='450'
+                width='800'
               />
-              <h4 className="headline_sub title">Jeff Cook</h4>
+              <h4 className='headline_sub title'>Jeff Cook</h4>
               <ul>
                 <li>
-                  Brazilian Jiu Jitsu black belt under{" "}
-                  <Link href="https://www.bjjheroes.com/bjj-fighters/john-crouch">
+                  Brazilian Jiu Jitsu black belt under{' '}
+                  <Link href='https://www.bjjheroes.com/bjj-fighters/john-crouch'>
                     <a>Professor John Crouch</a>
                   </Link>
                 </li>
@@ -180,21 +180,21 @@ const Instructors = () => {
               </ul>
             </article>
             <article>
-              <a id="livio"></a>
+              <a id='livio'></a>
               <Image
                 src={instructorLivio}
-                alt="Coach Livio Ribeiro."
-                objectFit="cover"
-                objectPosition="center top"
-                layout="intrinsic"
-                height="450"
-                width="800"
+                alt='Coach Livio Ribeiro.'
+                objectFit='cover'
+                objectPosition='center top'
+                layout='intrinsic'
+                height='450'
+                width='800'
               />
-              <h4 className="headline_sub title">Livio Ribeiro</h4>
+              <h4 className='headline_sub title'>Livio Ribeiro</h4>
               <ul>
                 <li>
-                  First degree Brazilian Jiu Jitsu black belt under{" "}
-                  <Link href="https://aresbjjgoodyear.com/Instructors/Professor-Osvaldo-Queixinho-Moizinho">
+                  First degree Brazilian Jiu Jitsu black belt under{' '}
+                  <Link href='https://aresbjjgoodyear.com/Instructors/Professor-Osvaldo-Queixinho-Moizinho'>
                     <a>Professor Osvaldo Queixinho Moizinho (&quot;Q&quot;)</a>
                   </Link>
                 </li>
@@ -202,17 +202,17 @@ const Instructors = () => {
               </ul>
             </article>
             <article>
-              <a id="london"></a>
+              <a id='london'></a>
               <Image
                 src={instructorLondon}
-                alt="Coach London Horn."
-                objectFit="cover"
-                objectPosition="center top"
-                layout="intrinsic"
-                height="450"
-                width="800"
+                alt='Coach London Horn.'
+                objectFit='cover'
+                objectPosition='center top'
+                layout='intrinsic'
+                height='450'
+                width='800'
               />
-              <h4 className="headline_sub title">London Horn</h4>
+              <h4 className='headline_sub title'>London Horn</h4>
               <ul>
                 <li>Brazilian Jiu Jitsu purple belt</li>
                 <li>Extremely active jiu jitsu competitor</li>
@@ -222,17 +222,17 @@ const Instructors = () => {
               </ul>
             </article>
             <article>
-              <a id="shad"></a>
+              <a id='shad'></a>
               <Image
                 src={instructorShadrack}
-                alt="Coach Shadrack Miller."
-                objectFit="cover"
-                objectPosition="center top"
-                layout="intrinsic"
-                height="450"
-                width="800"
+                alt='Coach Shadrack Miller.'
+                objectFit='cover'
+                objectPosition='center top'
+                layout='intrinsic'
+                height='450'
+                width='800'
               />
-              <h4 className="headline_sub title">Shadrack Miller</h4>
+              <h4 className='headline_sub title'>Shadrack Miller</h4>
               <ul>
                 <li>Head coach Allied Cottonwood</li>
                 <li>Brazilian Jiu Jitsu purple belt</li>
@@ -243,17 +243,17 @@ const Instructors = () => {
               </ul>
             </article>
             <article>
-              <a id="dave"></a>
+              <a id='dave'></a>
               <Image
                 src={instructorDave}
-                alt="Coach Dave Wilson."
-                objectFit="cover"
-                objectPosition="center top"
-                layout="intrinsic"
-                height="450"
-                width="800"
+                alt='Coach Dave Wilson.'
+                objectFit='cover'
+                objectPosition='center top'
+                layout='intrinsic'
+                height='450'
+                width='800'
               />
-              <h4 className="headline_sub title">Dave Wilson</h4>
+              <h4 className='headline_sub title'>Dave Wilson</h4>
               <ul>
                 <li>Brazilian Jiu Jitsu blue belt</li>
                 <li>Allied Functional Fitness coach</li>
@@ -266,34 +266,34 @@ const Instructors = () => {
               </ul>
             </article>
             <article>
-              <a id="mike"></a>
+              <a id='mike'></a>
               <Image
                 src={instructorOldMan}
-                alt="Coach Mike Grandinetti."
-                objectFit="cover"
-                objectPosition="center top"
-                layout="intrinsic"
-                height="450"
-                width="800"
+                alt='Coach Mike Grandinetti.'
+                objectFit='cover'
+                objectPosition='center top'
+                layout='intrinsic'
+                height='450'
+                width='800'
               />
-              <h4 className="headline_sub title">Mike Grandinetti</h4>
+              <h4 className='headline_sub title'>Mike Grandinetti</h4>
               <ul>
                 <li>Brazilian Jiu Jitsu brown belt</li>
                 <li>High school teacher extraordinaire :) </li>
               </ul>
             </article>
             <article>
-              <a id="tim"></a>
+              <a id='tim'></a>
               <Image
                 src={instructorTim}
-                alt="Coach Tim Metcalf."
-                objectFit="cover"
-                objectPosition="center top"
-                layout="intrinsic"
-                height="450"
-                width="800"
+                alt='Coach Tim Metcalf.'
+                objectFit='cover'
+                objectPosition='center top'
+                layout='intrinsic'
+                height='450'
+                width='800'
               />
-              <h4 className="headline_sub title">Tim Metcalf</h4>
+              <h4 className='headline_sub title'>Tim Metcalf</h4>
               <ul>
                 <li>Brazilian Jiu Jitsu purple belt</li>
                 <li>Youth competition instructor</li>
@@ -302,17 +302,17 @@ const Instructors = () => {
               </ul>
             </article>
             <article>
-              <a id="tyler"></a>
+              <a id='tyler'></a>
               <Image
                 src={instructorTyler}
-                alt="Coach Tyler Metcalf."
-                objectFit="cover"
-                objectPosition="center top"
-                layout="intrinsic"
-                height="450"
-                width="800"
+                alt='Coach Tyler Metcalf.'
+                objectFit='cover'
+                objectPosition='center top'
+                layout='intrinsic'
+                height='450'
+                width='800'
               />
-              <h4 className="headline_sub title">Tyler Metcalf</h4>
+              <h4 className='headline_sub title'>Tyler Metcalf</h4>
               <ul>
                 <li>Brazilian Jiu Jitsu green belt</li>
                 <li>Extremely active jiu jitsu competitor</li>
@@ -320,54 +320,54 @@ const Instructors = () => {
               </ul>
             </article>
             <article>
-              <a id="josh"></a>
+              <a id='josh'></a>
               <Image
                 src={instructorDayberry}
-                alt="Coach Josh Dayberry."
-                objectFit="cover"
-                objectPosition="center top"
-                layout="intrinsic"
-                height="450"
-                width="800"
+                alt='Coach Josh Dayberry.'
+                objectFit='cover'
+                objectPosition='center top'
+                layout='intrinsic'
+                height='450'
+                width='800'
               />
-              <h4 className="headline_sub title">Josh Dayberry</h4>
+              <h4 className='headline_sub title'>Josh Dayberry</h4>
               <ul>
                 <li>Brazilian Jiu Jitsu brown belt</li>
               </ul>
             </article>
             <article>
-              <a id="beno"></a>
+              <a id='beno'></a>
               <Image
                 src={instructorBeno}
-                alt="Coach Josh Beno."
-                objectFit="cover"
-                objectPosition="center top"
-                layout="intrinsic"
-                height="450"
-                width="800"
+                alt='Coach Josh Beno.'
+                objectFit='cover'
+                objectPosition='center top'
+                layout='intrinsic'
+                height='450'
+                width='800'
               />
-              <h4 className="headline_sub title">Josh Beno</h4>
+              <h4 className='headline_sub title'>Josh Beno</h4>
               <ul>
                 <li>Brazilian Jiu Jitsu purple belt</li>
                 <li>Yoga phenom</li>
               </ul>
             </article>
             <article>
-              <a id="ninja"></a>
+              <a id='ninja'></a>
               <Image
                 src={instructorNinja}
-                alt="Coach Chris Malicdem."
-                objectFit="cover"
-                objectPosition="center top"
-                layout="intrinsic"
-                height="450"
-                width="800"
+                alt='Coach Chris Malicdem.'
+                objectFit='cover'
+                objectPosition='center top'
+                layout='intrinsic'
+                height='450'
+                width='800'
               />
-              <h4 className="headline_sub title">Chris Malicdem</h4>
+              <h4 className='headline_sub title'>Chris Malicdem</h4>
               <ul>
                 <li>
-                  Brazilian Jiu Jitsu black belt under{" "}
-                  <Link href="https://www.bjjheroes.com/bjj-fighters/john-crouch">
+                  Brazilian Jiu Jitsu black belt under{' '}
+                  <Link href='https://www.bjjheroes.com/bjj-fighters/john-crouch'>
                     <a>Professor John Crouch</a>
                   </Link>
                 </li>
@@ -381,7 +381,7 @@ const Instructors = () => {
   );
 };
 
-Instructors.title = "Meet the Allied team";
+Instructors.title = 'Meet the Allied team';
 Instructors.description =
-  "Allied team members are respected and proven members of the jiu jitsu community. They are active competitors and recognized instructors.";
+  'Allied team members are respected and proven members of the jiu jitsu community. They are active competitors and recognized instructors.';
 export default Instructors;
