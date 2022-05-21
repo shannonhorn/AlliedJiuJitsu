@@ -1,7 +1,7 @@
-import styles from "../styles/Marquee.module.css";
+import styles from '../styles/Marquee.module.css';
 
 const Marquee = () => (
-  <section aria-label="marquee" className={styles.marquee}>
+  <section aria-label='marquee' className={styles.marquee}>
     <div className={styles.marquee_copy}>
       <h2
         className={`${styles.title} ${styles.headline} ${styles.animatePopIn}`}
@@ -26,7 +26,7 @@ const Marquee = () => (
       <h2
         className={`${styles.headline} ${styles.headline_sub} ${styles.animatePopIn}`}
       >
-        <a href="tel:6027033067">(602) 703-3067</a>
+        <a href='tel:6237030220'>(623) 703-0220</a>
       </h2>
       <hr className={`${styles.separator} ${styles.animatePopIn}`} />
       <h2
@@ -47,7 +47,7 @@ const Marquee = () => (
       <h2
         className={`${styles.headline} ${styles.headline_sub} ${styles.animatePopIn}`}
       >
-        <a href="tel:9282021229">(928) 202-1229</a>
+        <a href='tel:9282021229'>(928) 202-1229</a>
       </h2>
     </div>
   </section>

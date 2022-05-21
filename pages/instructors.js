@@ -4,7 +4,6 @@ import Image from 'next/image';
 import Header from '../controls/header';
 import Footer from '../controls/footer';
 import styles from '../styles/Instructors.module.css';
-import instructorThomas from '../public/images/instructorThomas.jpg';
 import instructorJeff from '../public/images/instructorJeff.jpg';
 import instructorLondon from '../public/images/instructorLondon.jpg';
 import instructorShadrack from '../public/images/instructorShadrack.jpg';
@@ -128,7 +127,7 @@ const Instructors = () => {
           </svg>
           <h3 className='headline'>OUR TEAM</h3>
           <section className={`${styles.instructors_grid} flow`}>
-            <article>
+            {/* <article>
               <a id='thomas'></a>
               <Image
                 src={instructorThomas}
@@ -152,7 +151,7 @@ const Instructors = () => {
                 <li>Fingerprint clearance</li>
                 <li>Licensed to teach in childcare facilities</li>
               </ul>
-            </article>
+            </article> */}
             <article>
               <a id='jeff'></a>
               <Image
@@ -266,23 +265,6 @@ const Instructors = () => {
               </ul>
             </article>
             <article>
-              <a id='mike'></a>
-              <Image
-                src={instructorOldMan}
-                alt='Coach Mike Grandinetti.'
-                objectFit='cover'
-                objectPosition='center top'
-                layout='intrinsic'
-                height='450'
-                width='800'
-              />
-              <h4 className='headline_sub title'>Mike Grandinetti</h4>
-              <ul>
-                <li>Brazilian Jiu Jitsu brown belt</li>
-                <li>High school teacher extraordinaire :) </li>
-              </ul>
-            </article>
-            <article>
               <a id='tim'></a>
               <Image
                 src={instructorTim}
@@ -299,6 +281,23 @@ const Instructors = () => {
                 <li>Youth competition instructor</li>
                 <li>CPR, first aid, AED certified</li>
                 <li>Fingerprint clearance</li>
+              </ul>
+            </article>
+            <article>
+              <a id='mike'></a>
+              <Image
+                src={instructorOldMan}
+                alt='Coach Mike Grandinetti.'
+                objectFit='cover'
+                objectPosition='center top'
+                layout='intrinsic'
+                height='450'
+                width='800'
+              />
+              <h4 className='headline_sub title'>Mike Grandinetti</h4>
+              <ul>
+                <li>Brazilian Jiu Jitsu brown belt</li>
+                <li>High school teacher extraordinaire :) </li>
               </ul>
             </article>
             <article>
