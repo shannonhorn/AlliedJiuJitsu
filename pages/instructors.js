@@ -127,7 +127,7 @@ const Instructors = () => {
           </svg>
           <h3 className='headline'>OUR TEAM</h3>
           <section className={`${styles.instructors_grid} flow`}>
-            {/* <article>
+            <article>
               <a id='thomas'></a>
               <Image
                 src={instructorThomas}
@@ -151,7 +151,7 @@ const Instructors = () => {
                 <li>Fingerprint clearance</li>
                 <li>Licensed to teach in childcare facilities</li>
               </ul>
-            </article> */}
+            </article>
             <article>
               <a id='jeff'></a>
               <Image

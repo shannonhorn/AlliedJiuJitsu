@@ -140,8 +140,8 @@ const Contact = () => {
                 </Link>
               </div>
               <div>
-                <Link href='tel:6237030220'>
-                  <a>Phone: (623) 703-0220</a>
+                <Link href='tel:602703067'>
+                  <a>Phone: (602) 703-3067</a>
                 </Link>
               </div>
             </div>
