@@ -6,7 +6,7 @@ import imageHomeJiuJitsuKids from "../public/images/homeJiuJitsuKids.jpg";
 import imageHomeJiuJitsuVets from "../public/images/homeJiuJitsuVets.jpg";
 import imageHomeFunctionalFitness from "../public/images/homeFunctionalFitness.jpg";
 import imageHomeTactical from "../public/images/homeTactical.jpg";
-import imageHomeYoga from "../public/images/homeYoga.jpg";
+// import imageHomeYoga from "../public/images/homeYoga.jpg";
 import imageHomeFunctionalFitnessRachel from "../public/images/homeFunctionalFitnessRachel.jpg";
 import imageHomeTacticalJeff from "../public/images/homeTacticalJeff.jpg";
 import imageHomeTacticalVideo from "../public/images/homeTacticalVideo.jpg";
@@ -254,7 +254,7 @@ const Programs = () => {
             BELT. A mouthguard is optional.
           </p>
         </article>
-        <article className="flow">
+        {/* <article className="flow">
           <a id="yoga"></a>
           <Image
             src={imageHomeYoga}
@@ -273,7 +273,7 @@ const Programs = () => {
             flexibility, agility, help alleviate aches and pain, and bring on
             good mental vibes.
           </p>
-        </article>
+        </article> */}
       </section>
     </section>
   );

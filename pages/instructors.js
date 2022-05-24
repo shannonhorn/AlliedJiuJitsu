@@ -13,7 +13,7 @@ import instructorTyler from '../public/images/instructorTyler.jpg';
 import instructorNinja from '../public/images/instructorNinja.jpg';
 import instructorDayberry from '../public/images/instructorDayberry.jpg';
 import instructorOldMan from '../public/images/instructorOldMan2.jpg';
-import instructorBeno from '../public/images/instructorBeno.jpg';
+// import instructorBeno from '../public/images/instructorBeno.jpg';
 import instructorLivio from '../public/images/instructorLivio2.jpg';
 
 const Instructors = () => {
@@ -127,7 +127,7 @@ const Instructors = () => {
           </svg>
           <h3 className='headline'>OUR TEAM</h3>
           <section className={`${styles.instructors_grid} flow`}>
-            <article>
+            {/* <article>
               <a id='thomas'></a>
               <Image
                 src={instructorThomas}
@@ -151,7 +151,7 @@ const Instructors = () => {
                 <li>Fingerprint clearance</li>
                 <li>Licensed to teach in childcare facilities</li>
               </ul>
-            </article>
+            </article> */}
             <article>
               <a id='jeff'></a>
               <Image
@@ -334,7 +334,7 @@ const Instructors = () => {
                 <li>Brazilian Jiu Jitsu brown belt</li>
               </ul>
             </article>
-            <article>
+            {/* <article>
               <a id='beno'></a>
               <Image
                 src={instructorBeno}
@@ -350,7 +350,7 @@ const Instructors = () => {
                 <li>Brazilian Jiu Jitsu purple belt</li>
                 <li>Yoga phenom</li>
               </ul>
-            </article>
+            </article> */}
             <article>
               <a id='ninja'></a>
               <Image

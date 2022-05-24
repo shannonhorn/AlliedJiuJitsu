@@ -172,7 +172,7 @@ const Schedule = () => {
                     <a target="_blank">Click here for details</a>
                   </Link>
                 </li> */}
-                <li>
+                {/* <li>
                   <div className={styles.schedule_heading}>
                     June 1 - 5, 2022
                   </div>
@@ -191,7 +191,7 @@ const Schedule = () => {
                   <div>
                     https://ibjjf.com/events/master-international-jiu-jitsu-championship-north-america-2022
                   </div>
-                </li>
+                </li> */}
                 <li>
                   <div className={styles.schedule_heading}>
                     June 17 - 19, 2022

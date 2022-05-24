@@ -26,7 +26,7 @@ const Marquee = () => (
       <h2
         className={`${styles.headline} ${styles.headline_sub} ${styles.animatePopIn}`}
       >
-        <a href='tel:6027033067'>(602) 703-3067</a>
+        <a href='tel:6237030220'>(623) 703-0220</a>
       </h2>
       <hr className={`${styles.separator} ${styles.animatePopIn}`} />
       <h2
