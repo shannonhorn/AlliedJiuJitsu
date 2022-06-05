@@ -192,14 +192,14 @@ const Schedule = () => {
                     https://ibjjf.com/events/master-international-jiu-jitsu-championship-north-america-2022
                   </div>
                 </li> */}
-                <li>
+                {/* <li>
                   <div className={styles.schedule_heading}>
                     June 17 - 19, 2022
                   </div>
                   <div>Allied Camp</div>
                   <div>Cottonwood, AZ</div>
                   <div>more information soon...</div>
-                </li>
+                </li> */}
                 <li>
                   <div className={styles.schedule_heading}>June 25, 2022</div>
                   <div>AZ State Championship</div>
@@ -248,6 +248,9 @@ const Schedule = () => {
                   </div>
                   <div>IBJJF Phoenix Open</div>
                   <div>Scottsdale, AZ</div>
+                  <Link href='https://ibjjf.com/events/phoenix-international-open-ibjjf-jiu-jitsu-championship-2022'>
+                    <a target='_blank'>Click here for details</a>
+                  </Link>
                 </li>
                 <li>
                   <div className={styles.schedule_heading}>August 13, 2022</div>

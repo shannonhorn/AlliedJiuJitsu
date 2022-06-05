@@ -216,11 +216,12 @@ const Instructors = () => {
                 <li>Brazilian Jiu Jitsu purple belt</li>
                 <li>Extremely active jiu jitsu competitor</li>
                 <li>IBJJF 2021 Worlds podium</li>
-                <li>Licensed EMT and CPR certified</li>
+                <li>Youth competition instructor</li>
+               <li>Licensed EMT and CPR certified</li>
                 <li>Competitive power lifter</li>
               </ul>
             </article>
-            <article>
+            {/* <article>
               <a id='shad'></a>
               <Image
                 src={instructorShadrack}
@@ -240,7 +241,7 @@ const Instructors = () => {
                 <li>CPR, first aid, AED certified</li>
                 <li>Enjoys functional fitness training</li>
               </ul>
-            </article>
+            </article> */}
             <article>
               <a id='dave'></a>
               <Image
@@ -264,7 +265,7 @@ const Instructors = () => {
                 <li>Licensed to teach in childcare facilities</li>
               </ul>
             </article>
-            <article>
+            {/* <article>
               <a id='tim'></a>
               <Image
                 src={instructorTim}
@@ -282,7 +283,7 @@ const Instructors = () => {
                 <li>CPR, first aid, AED certified</li>
                 <li>Fingerprint clearance</li>
               </ul>
-            </article>
+            </article> */}
             <article>
               <a id='mike'></a>
               <Image
@@ -300,7 +301,7 @@ const Instructors = () => {
                 <li>High school teacher extraordinaire :) </li>
               </ul>
             </article>
-            <article>
+            {/* <article>
               <a id='tyler'></a>
               <Image
                 src={instructorTyler}
@@ -317,8 +318,8 @@ const Instructors = () => {
                 <li>Extremely active jiu jitsu competitor</li>
                 <li>Youth competition instructor</li>
               </ul>
-            </article>
-            <article>
+            </article> */}
+            {/* <article>
               <a id='josh'></a>
               <Image
                 src={instructorDayberry}
@@ -333,7 +334,7 @@ const Instructors = () => {
               <ul>
                 <li>Brazilian Jiu Jitsu brown belt</li>
               </ul>
-            </article>
+            </article> */}
             {/* <article>
               <a id='beno'></a>
               <Image
@@ -351,7 +352,7 @@ const Instructors = () => {
                 <li>Yoga phenom</li>
               </ul>
             </article> */}
-            <article>
+            {/* <article>
               <a id='ninja'></a>
               <Image
                 src={instructorNinja}
@@ -371,7 +372,7 @@ const Instructors = () => {
                   </Link>
                 </li>
               </ul>
-            </article>
+            </article> */}
           </section>
         </section>
         <Footer />

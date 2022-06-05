@@ -28,7 +28,7 @@ const Marquee = () => (
       >
         <a href='tel:6237030220'>(623) 703-0220</a>
       </h2>
-      <hr className={`${styles.separator} ${styles.animatePopIn}`} />
+      {/* <hr className={`${styles.separator} ${styles.animatePopIn}`} />
       <h2
         className={`${styles.title} ${styles.headline} ${styles.animatePopIn}`}
       >
@@ -48,7 +48,7 @@ const Marquee = () => (
         className={`${styles.headline} ${styles.headline_sub} ${styles.animatePopIn}`}
       >
         <a href='tel:9282021229'>(928) 202-1229</a>
-      </h2>
+      </h2> */}
     </div>
   </section>
 );
