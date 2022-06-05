@@ -217,7 +217,7 @@ const Instructors = () => {
                 <li>Extremely active jiu jitsu competitor</li>
                 <li>IBJJF 2021 Worlds podium</li>
                 <li>Youth competition instructor</li>
-               <li>Licensed EMT and CPR certified</li>
+                <li>Licensed EMT and CPR certified</li>
                 <li>Competitive power lifter</li>
               </ul>
             </article>
