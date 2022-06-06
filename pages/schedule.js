@@ -44,7 +44,7 @@ const Schedule = () => {
           </svg>
           <h3 className='headline'>WHEN TO MEET</h3>
           <section className={`${styles.schedule_grid} flow`}>
-            <section className={styles.schedule_copy}>
+            {/* <section className={styles.schedule_copy}>
               NOTE: The schedule below applies to our HQ location in Peoria, AZ.
               If you&apos;re looking for the schedule for our Cottonwood, AZ
               location,{' '}
@@ -52,7 +52,7 @@ const Schedule = () => {
                 <a target='_blank'>click here</a>
               </Link>
               .
-            </section>
+            </section> */}
             <section>
               <div className={`${styles.title} ${styles.schedule_title}`}>
                 UPCOMING SPECIAL EVENTS
