@@ -362,12 +362,12 @@ const Schedule = () => {
                     Adults Jiu Jitsu (Gi)
                   </span>
                 </li>
-                <li>
+                {/* <li>
                   <span className={styles.schedule_heading}>7:00 pm</span>
                   <span className={styles.schedule_name}>
                     Adult Competition Jiu Jitsu Training (Gi)
                   </span>
-                </li>
+                </li> */}
               </ul>
             </section>
             <section>
@@ -452,16 +452,16 @@ const Schedule = () => {
                 <li>
                   <span className={styles.schedule_heading}>6:00 pm</span>
                   <span className={styles.schedule_name}>
-                    Adults Fundamentals Jiu Jitsu (Gi)
+                    Adults Jiu Jitsu (Gi)
                   </span>
                 </li>
-                <li>
+                {/* <li>
                   <span className={styles.schedule_heading}>7:00 pm</span>
                   <span className={styles.schedule_name}>
                     Adults Advanced Jiu Jitsu (Gi with Livio Ribeiro, blue belt
                     and up, $20 drop in fee for non-Allied members)
                   </span>
-                </li>
+                </li> */}
               </ul>
             </section>
             <section>
