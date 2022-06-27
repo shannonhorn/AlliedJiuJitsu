@@ -200,15 +200,15 @@ const Schedule = () => {
                   <div>Cottonwood, AZ</div>
                   <div>more information soon...</div>
                 </li> */}
-                <li>
+                {/* <li>
                   <div className={styles.schedule_heading}>June 25, 2022</div>
                   <div>AZ State Championship</div>
                   <div>Bell Bank Park, Mesa, AZ</div>
                   <Link href='https://azbjjf.smoothcomp.com/en/event/6474'>
                     <a target='_blank'>Click here for details</a>
                   </Link>
-                </li>
-                <li>
+                </li> */}
+                {/* <li>
                   <div className={styles.schedule_heading}>
                     June 30 - July 2, 2022
                   </div>
@@ -225,7 +225,7 @@ const Schedule = () => {
                   <div>
                     https://ibjjf.com/events/american-national-kids-ibjjf-jiu-jitsu-championship-2022
                   </div>
-                </li>
+                </li> */}
                 <li>
                   <div className={styles.schedule_heading}>July 9, 2022</div>
                   <div>Grappling Industries</div>
