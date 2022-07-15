@@ -226,7 +226,7 @@ const Schedule = () => {
                     https://ibjjf.com/events/american-national-kids-ibjjf-jiu-jitsu-championship-2022
                   </div>
                 </li> */}
-                <li>
+                {/* <li>
                   <div className={styles.schedule_heading}>July 9, 2022</div>
                   <div>Grappling Industries</div>
                   <div>Victorium, Scottsdale, AZ</div>
@@ -241,7 +241,7 @@ const Schedule = () => {
                   <Link href='https://ibjjf.com/events/pan-kids-ibjjf-jiu-jitsu-championship-2022'>
                     <a target='_blank'>Click here for details</a>
                   </Link>
-                </li>
+                </li> */}
                 <li>
                   <div className={styles.schedule_heading}>
                     July 30 - 31, 2022
