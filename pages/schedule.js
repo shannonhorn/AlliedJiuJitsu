@@ -369,6 +369,12 @@ const Schedule = () => {
                 <li>
                   <span className={styles.schedule_heading}>6:00 pm</span>
                   <span className={styles.schedule_name}>
+                    Jiu Jitsu Fundamentals (Gi)
+                  </span>
+                </li>
+                <li>
+                  <span className={styles.schedule_heading}>6:00 pm</span>
+                  <span className={styles.schedule_name}>
                     Adults Jiu Jitsu (Gi)
                   </span>
                 </li>
@@ -457,6 +463,12 @@ const Schedule = () => {
                   <span className={styles.schedule_heading}>5:00 pm</span>
                   <span className={styles.schedule_name}>
                     Teen Jiu Jitsu (Gi)
+                  </span>
+                </li>
+                <li>
+                  <span className={styles.schedule_heading}>6:00 pm</span>
+                  <span className={styles.schedule_name}>
+                    Jiu Jitsu Fundamentals (Gi)
                   </span>
                 </li>
                 <li>
