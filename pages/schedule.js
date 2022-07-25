@@ -328,6 +328,30 @@ const Schedule = () => {
                     https://grapplingindustries.smoothcomp.com/en/event/6280
                   </div>
                 </li>
+                <li>
+                  <div className={styles.schedule_heading}>October 15, 2022</div>
+                  <div>Southwest Classic</div>
+                  <div>Mesa, AZ</div>
+                  <div>
+                  https://azbjjf.smoothcomp.com/en/event/7858
+                  </div>
+                </li>
+                <li>
+                  <div className={styles.schedule_heading}>December 10, 2022</div>
+                  <div>Masters Cup</div>
+                  <div>Mesa, AZ</div>
+                  <div>
+                  https://azbjjf.smoothcomp.com/en/event/7897
+                  </div>
+                </li>
+                <li>
+                  <div className={styles.schedule_heading}>December 10, 2022</div>
+                  <div>Kids Cup</div>
+                  <div>Mesa, AZ</div>
+                  <div>
+                  https://azbjjf.smoothcomp.com/en/event/7896
+                  </div>
+                </li>
               </ul>
               <div className={styles.schedule_title_separator}></div>
             </section>
