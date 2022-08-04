@@ -242,7 +242,7 @@ const Schedule = () => {
                     <a target='_blank'>Click here for details</a>
                   </Link>
                 </li> */}
-                <li>
+                {/* <li>
                   <div className={styles.schedule_heading}>
                     July 30 - 31, 2022
                   </div>
@@ -261,7 +261,7 @@ const Schedule = () => {
                   <Link href='https://ibjjf.com/events/phoenix-kids-international-open-ibjjf-jiu-jitsu-championship-2022'>
                     <a target='_blank'>Click here for details</a>
                   </Link>
-                </li>
+                </li> */}
                 <li>
                   <div className={styles.schedule_heading}>August 13, 2022</div>
                   <div>Arizona State Novice Cup (White belt only)</div>
