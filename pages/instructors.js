@@ -5,15 +5,9 @@ import Header from '../controls/header';
 import Footer from '../controls/footer';
 import styles from '../styles/Instructors.module.css';
 import instructorJeff from '../public/images/instructorJeff.jpg';
-import instructorLondon from '../public/images/instructorLondon.jpg';
-import instructorShadrack from '../public/images/instructorShadrack.jpg';
+import instructorLondon from '../public/images/instructorLondon2.jpg';
 import instructorDave from '../public/images/instructorDave.jpg';
-import instructorTim from '../public/images/instructorTim.jpg';
-import instructorTyler from '../public/images/instructorTyler.jpg';
-import instructorNinja from '../public/images/instructorNinja.jpg';
-import instructorDayberry from '../public/images/instructorDayberry.jpg';
 import instructorOldMan from '../public/images/instructorOldMan2.jpg';
-// import instructorBeno from '../public/images/instructorBeno.jpg';
 import instructorLivio from '../public/images/instructorLivio2.jpg';
 
 const Instructors = () => {
@@ -213,7 +207,7 @@ const Instructors = () => {
               />
               <h4 className='headline_sub title'>London Horn</h4>
               <ul>
-                <li>Brazilian Jiu Jitsu purple belt</li>
+                <li>Brazilian Jiu Jitsu brown belt</li>
                 <li>Extremely active jiu jitsu competitor</li>
                 <li>IBJJF 2021 Worlds podium</li>
                 <li>Youth competition instructor</li>
