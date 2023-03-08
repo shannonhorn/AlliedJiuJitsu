@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <meta httpEquiv='refresh' content="0; url='https://www.mjja.academy'" />
+        <meta httpEquiv='refresh' content="0; url='https://www.arespeoria.com'" />
         <title>
           {Component.title ?? 'Allied Jiu Jitsu in Peoria and Cottonwood AZ'}
         </title>
